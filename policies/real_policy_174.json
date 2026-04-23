@@ -1,0 +1,71 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "S3MultStreamboxcomedyshotnone",
+      "Effect": "Allow",
+      "Action": [
+        "s3:createb*",
+        "s3:deletebucket",
+        "s3:deletebucketw*",
+        "s3:getaccel*",
+        "s3:getan*",
+        "s3:getb*",
+        "s3:gete*",
+        "s3:geti*",
+        "s3:getl*",
+        "s3:getme*",
+        "s3:getr*",
+        "s3:listb*",
+        "s3:putaccel*",
+        "s3:putan*",
+        "s3:putbucketc*",
+        "s3:putbucketl*",
+        "s3:putbucketn*",
+        "s3:putbucketo*",
+        "s3:putbucketr*",
+        "s3:putbucketv*",
+        "s3:putbucketw*",
+        "s3:pute*",
+        "s3:puti*",
+        "s3:putl*",
+        "s3:putme*",
+        "s3:putr*"
+      ],
+      "Resource": [
+        "arn:aws:s3:::streambox-comedyshot"
+      ]
+    },
+    {
+      "Sid": "S3MultStreamboxcomedyshot",
+      "Effect": "Allow",
+      "Action": [
+        "s3:a*",
+        "s3:deleteobject",
+        "s3:deleteobjectversion",
+        "s3:geto*",
+        "s3:i*",
+        "s3:listmultip*",
+        "s3:putobject",
+        "s3:putobjectl*",
+        "s3:putobjectr*",
+        "s3:replicated*",
+        "s3:replicateo*",
+        "s3:res*"
+      ],
+      "Resource": [
+        "arn:aws:s3:::streambox-comedyshot/*"
+      ]
+    },
+    {
+      "Sid": "MultMultNone",
+      "Effect": "Allow",
+      "Action": [
+        "iam:pa*"
+      ],
+      "Resource": [
+        "*"
+      ]
+    }
+  ]
+}

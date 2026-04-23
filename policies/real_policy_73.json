@@ -1,0 +1,33 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowGlueDatabaseTableManagement",
+      "Effect": "Allow",
+      "Action": [
+        "glue:CreateTable",
+        "glue:GetTable",
+        "glue:GetTables",
+        "glue:GetPartitions",
+        "glue:UpdateTable",
+        "glue:DeleteTable",
+        "glue:BatchCreatePartition"
+      ],
+      "Resource": [
+        "arn:aws:glue:sa-east-1:222634369832:catalog",
+        "arn:aws:glue:sa-east-1:222634369832:database/prd",
+        "arn:aws:glue:sa-east-1:222634369832:table/prd/*"
+      ]
+    },
+    {
+      "Sid": "AllowGlueDatabaseRead",
+      "Effect": "Allow",
+      "Action": [
+        "glue:GetDatabase"
+      ],
+      "Resource": [
+        "arn:aws:glue:sa-east-1:222634369832:database/prd"
+      ]
+    }
+  ]
+}

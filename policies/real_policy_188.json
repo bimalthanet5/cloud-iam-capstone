@@ -1,0 +1,25 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "qbusiness:CreateApplication",
+        "qbusiness:ListApplications",
+        "qbusiness:GetApplication",
+        "qbusiness:ChatSync",
+        "qbusiness:Chat",
+        "qbusiness:ListConversations",
+        "qbusiness:GetConversation"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "sts:GetCallerIdentity"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

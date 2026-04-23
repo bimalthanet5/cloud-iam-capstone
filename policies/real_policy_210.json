@@ -1,0 +1,58 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ssm:PutParameter"
+      ],
+      "Resource": "arn:aws:ssm:*:*:parameter/CodeBuild/*"
+    },
+    {
+      "Action": [
+        "iam:*",
+        "lambda:*",
+        "apigateway:*",
+        "s3:*",
+        "sqs:*",
+        "cloudwatch:*",
+        "ec2:*",
+        "acm:*",
+        "route53:*",
+        "eks:*",
+        "dynamodb:*",
+        "autoscaling:*",
+        "logs:*",
+        "codebuild:*",
+        "elasticfilesystem:*",
+        "ecr:*",
+        "events:*",
+        "elasticloadbalancing:*",
+        "cloudfront:*",
+        "rds:*",
+        "application-autoscaling:DeleteScalingPolicy",
+        "application-autoscaling:DeregisterScalableTarget",
+        "application-autoscaling:DescribeScalableTargets",
+        "application-autoscaling:DescribeScalingActivities",
+        "application-autoscaling:DescribeScalingPolicies",
+        "application-autoscaling:PutScalingPolicy",
+        "application-autoscaling:RegisterScalableTarget",
+        "sns:*",
+        "kms:*",
+        "outposts:GetOutpostInstanceTypes",
+        "elasticache:*",
+        "ce:*",
+        "dax:*",
+        "dlm:*",
+        "kafka:*",
+        "kafka-cluster:*",
+        "kafkaconnect:*",
+        "es:*",
+        "secretsmanager:*",
+        "ecs:*"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}

@@ -1,0 +1,2074 @@
+nohup: ignoring input
+Token loaded successfully
+
+============================================================
+MULTI-ROUND SCRAPING: 5 rounds
+Target: 500 policies
+============================================================
+
+
+============================================================
+ROUND 1 of 5
+============================================================
+
+============================================================
+GitHub IAM Policy Scraper (Anti-Duplicate)
+============================================================
+Target: 500 policies
+Currently have: 0 policies
+Remaining to collect: 500
+
+
+Searching GitHub: filename:iam.json
+   Found 100 files
+
+Searching GitHub: filename:policy.json
+   Found 100 files
+
+Searching GitHub: path:iam language:json Statement
+   Found 100 files
+
+Searching GitHub: filename:aws-policy.json
+   Found 100 files
+
+Searching GitHub: AWS policy json
+   Found 100 files
+
+Searching GitHub: IAM policy github
+   Found 100 files
+
+Total items found: 600
+Downloading policies...
+
+[1/600] iam.jsonnet from kapicorp/kapitan
+[2/600] cesarwilliam.json from remy/mit-license
+[3/600] iam.json from huseyinbabal/taws
+[4/600] iam.json.tpl from aws-samples/terraform-aws-organization-policies
+   Saved: policies/real_policy_0.json
+[5/600] diam.json from hubingkang/vocabulary-corpus
+[6/600] bosh-core-stemcells_iam.json from cloudfoundry/bosh-linux-stemcell-builder
+   Saved: policies/real_policy_1.json
+[7/600] william.json from bluzi/name-db
+[8/600] iam.json.orig from Glairly/introduction_to_tensorflow
+[9/600] iam.json.new from vishal710/GoogleCloudPlatform-training-data-analyst
+[10/600] miriam.json from CDLUC3/N2T
+[11/600] kops-iam.json from bgeesaman/hhkbe
+[12/600] IAM.json from opencdx/opencdx
+[13/600] oneoe_iam.json from oci-landing-zones/oci-landing-zone-operating-entities
+[14/600] iam.json-reformat.py from bwnyasse/learning-box
+[15/600] airiam.json from STFCcommunity/data
+[16/600] iam.json.tftpl from MatDevel0per/terraform_module_scaffold
+[17/600] ebs-iam.json.tmpl from pfenerty/talos-aws-terraform
+   Saved: policies/real_policy_2.json
+[18/600] mniam.json from nice-registry/dependent-packages
+[19/600] sample-iam.json from SmarterServices/IAM
+   Saved: policies/real_policy_3.json
+[20/600] liam.json.old from STBRR/YamatoLegacy
+[21/600] santiam.json5 from krzysztofrewak/hops
+[22/600] Priam.jsonld from scta/scta-people
+[23/600] sciam.json from j6k4m8/Congress-Twitter-Followers
+[24/600] Aniam.json from BibleAquifer/ACAI
+[25/600] EJPIAm.json from j6k4m8/Congress-Twitter-Followers
+[26/600] Miriam.json from BibleAquifer/ACAI
+[27/600] sample_config_iam.json from cwig/simple_hwr
+[28/600] emeryiam.json from j6k4m8/Congress-Twitter-Followers
+[29/600] WisamIAm.json from j6k4m8/Congress-Twitter-Followers
+[30/600] CF-IAM.json from RedHatDemos/SecurityDemos
+[31/600] Thing2Iam.json from j6k4m8/Congress-Twitter-Followers
+[32/600] Liam.json from ExtraE113/moltbook_data
+[33/600] sciam.json from JohnMarkOckerbloom/onlinebooks
+[34/600] jsiam.json from JohnMarkOckerbloom/onlinebooks
+[35/600] liam.json from datasets-io/female-first-names-us-frequency
+[36/600] liam.json from MaddieM4/djdns-hype-flat
+[37/600] OIAM.json from geoffmcl/map-test2
+[38/600] VIAM.json from geoffmcl/map-test2
+[39/600] SIAM.json from geoffmcl/map-test2
+[40/600] ariam.json from datasets-io/female-first-names-us-frequency
+[41/600] adiam.json from datasets-io/female-first-names-us-frequency
+[42/600] mariam.json from datasets-io/female-first-names-us-frequency
+[43/600] liliam.json from datasets-io/female-first-names-us-frequency
+[44/600] myriam.json from datasets-io/female-first-names-us-frequency
+[45/600] washifyIAM.json from Washify-EGS/IAM
+[46/600] CrisIAm.json from ExtraE113/moltbook_data
+[47/600] lilliam.json from datasets-io/female-first-names-us-frequency
+[48/600] gilliam.json from datasets-io/female-first-names-us-frequency
+[49/600] mirriam.json from datasets-io/female-first-names-us-frequency
+[50/600] jilliam.json from datasets-io/female-first-names-us-frequency
+[51/600] VIAM.json from geoffmcl/map-test2
+[52/600] OIAM.json from geoffmcl/map-test2
+[53/600] WIAM.json from geoffmcl/map-test2
+[54/600] SIAM.json from geoffmcl/map-test2
+[55/600] kiam.json from datasets-io/male-first-names-us-frequency
+[56/600] tiam.json from datasets-io/male-first-names-us-frequency
+[57/600] siam.json from datasets-io/male-first-names-us-frequency
+[58/600] iam.json from robotocore/robotocore
+[59/600] chiam.json from datasets-io/male-first-names-us-frequency
+[60/600] eliam.json from datasets-io/male-first-names-us-frequency
+[61/600] leiam.json from datasets-io/male-first-names-us-frequency
+[62/600] lliam.json from datasets-io/male-first-names-us-frequency
+[63/600] EC2snapshotIAM.json from giancarlopetrini/aws-snapshot-automation
+   Saved: policies/real_policy_4.json
+[64/600] wiliam.json from datasets-io/male-first-names-us-frequency
+[65/600] wlliam.json from datasets-io/male-first-names-us-frequency
+[66/600] illiam.json from datasets-io/male-first-names-us-frequency
+[67/600] liam.json from 0xbzho/onename
+[68/600] gilliam.json from datasets-io/male-first-names-us-frequency
+[69/600] wylliam.json from datasets-io/male-first-names-us-frequency
+[70/600] wiiliam.json from datasets-io/male-first-names-us-frequency
+[71/600] ephriam.json from datasets-io/male-first-names-us-frequency
+[72/600] wwlliam.json from datasets-io/male-first-names-us-frequency
+[73/600] siam.json from hanjoyo/kbbi
+[74/600] riam.json from hanjoyo/kbbi
+[75/600] kiam.json from hanjoyo/kbbi
+[76/600] tiam.json from hanjoyo/kbbi
+[77/600] willliam.json from datasets-io/male-first-names-us-frequency
+[78/600] williiam.json from datasets-io/male-first-names-us-frequency
+[79/600] wwilliam.json from datasets-io/male-first-names-us-frequency
+[80/600] winiam.json from 0xbzho/onename
+[81/600] daniam.json from 0xbzho/onename
+[82/600] taliam.json from 0xbzho/onename
+[83/600] jimiam.json from 0xbzho/onename
+[84/600] kthiam.json from 0xbzho/onename
+[85/600] mariam.json from 0xbzho/onename
+[86/600] googleapis.com_iam.json from bhumikanilesh/api-explorer-pipeline
+[87/600] rmiriam.json from 0xbzho/onename
+[88/600] iam_iam.json from 0xbzho/onename
+[89/600] pik-piam.json from r-universe-org/cran-to-git
+[90/600] event_iam.json from MattTunny/watch-security-group
+[91/600] meriam.json from hanjoyo/kbbi
+[92/600] sediam.json from hanjoyo/kbbi
+[93/600] sirwilliam.json from datasets-io/male-first-names-us-frequency
+[94/600] jgilliam.json from 0xbzho/onename
+[95/600] cgilliam.json from 0xbzho/onename
+[96/600] uuilliam.json from 0xbzho/onename
+[97/600] 2william.json from 0xbzho/onename
+[98/600] packer-iam.json from evgeny-goldin/playbooks
+   Saved: policies/real_policy_5.json
+[99/600] berdiam.json from hanjoyo/kbbi
+[100/600] johnwilliam.json from datasets-io/male-first-names-us-frequency
+[101/600] CorsPolicy.json.cs from Azure/azure-powershell
+[102/600] 04_policy.json.j2 from hiddify/Hiddify-Manager
+[103/600] bucket-policy.json.template from pachyderm/pachyderm
+   Saved: policies/real_policy_6.json
+[104/600] OIDC-Policy.json.template from hpcc-systems/HPCC-Platform
+   Saved: policies/real_policy_7.json
+[105/600] policy.json.adoc from stolostron/rhacm-docs
+[106/600] policy.json.dist from devture/matrix-corporal
+[107/600] policy.json.tpl from monterail/terraform-bootstrap-example
+[108/600] united-policy.json-in-cinder.rst from openstack/cinder-specs
+[109/600] stage-scaling-policy.json.j2 from foremast/foremast
+[110/600] _policy.json.jbuilder from openaustralia/theyvoteforyou
+[111/600] CreatePolicy.json.cloudtrail from adanalvarez/TrailDiscover
+[112/600] policy.json from SS-archive/salt-states
+[113/600] _policy.json.tpl from sapcc/helm-charts
+[114/600] DisableRegionsPolicy.json.tftpl from primeharbor/org-kickstart
+[115/600] kmspolicy.json.tpl from Capgemini/TerraKube-AWS
+   Saved: policies/real_policy_8.json
+[116/600] lambda_policy.json.erb from coinbase/bifrost
+   Saved: policies/real_policy_9.json
+[117/600] debuggers_policy.json.orig from cunningham-lab/neurocaas
+   Saved: policies/real_policy_10.json
+[118/600] bucket-policy.json from trek10inc/serverless-video-sharing
+   Saved: policies/real_policy_11.json
+[119/600] bucket_policy.json.tpl from koding/tf_zookeeper
+   Saved: policies/real_policy_12.json
+[120/600] iam_role_policy.json from DevOpsRunbook/FastCampus
+   Saved: policies/real_policy_13.json
+[121/600] llm_policy.json.raw.txt from GiangHoGoVap/LLM-ALNS
+[122/600] AssumeRolepolicy.json.txt from UnfoldDataScience/Agentic_Ai_For_Beginner
+[123/600] containers-policy.json.5.md from ciq-rocky-lts/containers-common
+[124/600] policy.json.j2 from stephenpearson/hos_config
+[125/600] policy.json.j2 from ArdanaCLM/ceilometer-ansible
+[126/600] policy.json.j2 from validatedpatterns/hypershift-automation
+   Saved: policies/real_policy_14.json
+[127/600] valueset-consent-policy.json.html from ebmonfhir/publish
+[128/600] v3-SecurityPolicy.json.html from fhir-ru/built-test
+[129/600] dynamodb-policy.json.sample from lakshminarasimmanv/narasimman-tech-tf
+   Saved: policies/real_policy_15.json
+[130/600] hadoop-policy.json.j2 from clemlabprojects/ansible-odp-cluster-installation
+[131/600] trust-policy.json.tpl from cbfield/terraform-aws-irsa
+[132/600] step_policy.json.erb from fakeNetflix/coinbase-repo-geoengineer
+   Saved: policies/real_policy_16.json
+[133/600] valueset-versioning-policy.json.html from bcl-lab/FHIR_CG_web
+[134/600] policy.json.sample.license from brlin-tw/neko-container
+[135/600] k8s_r53_role_policy.json.tpl from AwesomeCICD/ceratf-module-helm-istio
+   Saved: policies/real_policy_17.json
+[136/600] kms-key-policy.json.tpl from dxw/terraform-dxw-dalmatian-account-bootstrap
+[137/600] valueset-versioning-policy.json.html from ebmonfhir/publish
+[138/600] sns_send_message_policy.json.tpl from nationalarchives/dr2-ingest
+   Saved: policies/real_policy_18.json
+[139/600] key_access_policy.json.tpl from psgpyc/AWS-INFRA-TERRAFORM
+   Saved: policies/real_policy_19.json
+[140/600] codesystem-versioning-policy.json.html from bcl-lab/FHIR_CG_web
+[141/600] contract-example-ins-policy.json.html from ebmonfhir/publish
+[142/600] kms-key-policy.json.tpl from cbfield/terraform-aws-rds-cluster
+   Saved: policies/real_policy_20.json
+[143/600] kube2iam-policy.json.j2 from ctg123/ansible-kops
+   Saved: policies/real_policy_21.json
+[144/600] ilm_policy.json.j2 from GuillaumeWaignier/fibaro-dashboard
+[145/600] s3-bucket-policy.json.tpl from dxw/terraform-aws-tfvars-s3
+[146/600] policy.json.5.md from lunar-linux/moonbase-other
+[147/600] GlueAccessPolicy.json.tpl from ricardo-mattoss/ggvd-data-pipeline
+   Saved: policies/real_policy_22.json
+[148/600] codesystem-versioning-policy.json.html from ebmonfhir/publish
+[149/600] policy.json.j2 from pascal71/k8s4all-ansible
+[150/600] node-trust-policy.json.j2 from ctg123/ansible-kops
+   Saved: policies/real_policy_23.json
+[151/600] codebuild-policy.json.tpl from bitcot/terraform-aws-wordpress-beanstalk
+   Saved: policies/real_policy_24.json
+[152/600] notification-policy.json.template from kurron/terraform-environments
+   Saved: policies/real_policy_25.json
+[153/600] policy.json.template from seanrmurphy/go-fullstack
+[154/600] trust-policy.json.tmpl from stclaird/cloud-oidc
+   Saved: policies/real_policy_26.json
+[155/600] repository-policy.json.tpl from cbfield/terraform-aws-ecr-repository
+[156/600] apigateway_policy.json.tpl from serverless-ca/api-gateway
+   Saved: policies/real_policy_27.json
+[157/600] lambda-policy.json.bak from GarrettOHara/scripts
+   Saved: policies/real_policy_28.json
+[158/600] assume-role-policy.json.tpl from cbfield/terraform-aws-eks-cluster
+   Saved: policies/real_policy_29.json
+[159/600] etcd-policy.json.tpl from Smana/terraform-kubernetes
+   Saved: policies/real_policy_30.json
+[160/600] wordpress-s3-policy.json.j2 from dysonfrost/ansible-kops
+   Saved: policies/real_policy_31.json
+[161/600] kptboard_ssm_policy.json.tpl from f96q/kptboard-terraform
+   Saved: policies/real_policy_32.json
+[162/600] wash-kms-key-policy.json.tpl from psgpyc/WASH-Analytics-Engineering-Project
+   Saved: policies/real_policy_33.json
+[163/600] s3_kms_key_policy.json.tpl from psgpyc/AWS-INFRA-TERRAFORM
+   Saved: policies/real_policy_34.json
+[164/600] glance.policy.json.juno from gfa/salt-for-openstack
+[165/600] ecr_repo_policy.json.tpl from cip-p/terraform-aws
+[166/600] CrossChainPolicy.json.ts from scom-repos/oswap-cross-chain-token-contract
+[167/600] policy.json_example from rodrigods/keystone-policy-tests
+[168/600] bucket_policy.json from acantril/aws-sa-associate-saac02
+   Saved: policies/real_policy_35.json
+[169/600] ec2_policy.json.tpl from MancunianSam/piano-lessons-infrastructure
+   Saved: policies/real_policy_36.json
+[170/600] assume-role-policy.json.j2 from validatedpatterns/hypershift-automation
+[171/600] policy.json.erb from SysCompass/compass-adapters
+[172/600] _privacy_policy.json.jbuilder from arataaoshima/smorq
+[173/600] policy.json.tmpl from bkeane/monad
+   Saved: policies/real_policy_37.json
+[174/600] s3_policy.json.j2 from rahulinux/ansible-portus
+   Saved: policies/real_policy_38.json
+[175/600] azurepolicy.json from Azure/Community-Policy
+[176/600] minio-rw-policy.json.jinja from WaylonWalker/homelab-argo
+   Saved: policies/real_policy_39.json
+[177/600] service-role-policy.json from npalm/terraform-aws-ecs-instances
+   Saved: policies/real_policy_40.json
+[178/600] policy.json.j2 from t1mssc/kali-playbook
+[179/600] role_policy.json.tpl from gessy0129/GitHubLoginToCognito
+   Saved: policies/real_policy_41.json
+[180/600] s3_repl_policy.json.j2 from jpmontez/s3_replication
+[181/600] assume_role_policy.json.tmpl from fengjixuchui/kube-registry
+   Saved: policies/real_policy_42.json
+[182/600] diffusion_policy.json from DAVIAN-Robotics/ACG
+[183/600] cloudwatch-logging-policy.json.tpl from Loganair/aws-sftp
+   Saved: policies/real_policy_43.json
+[184/600] ecs_task_policy.json.tpl from MancunianSam/piano-lessons-infrastructure
+   Saved: policies/real_policy_44.json
+[185/600] lambda_policy.json.j2 from auto-processor/definition
+   Saved: policies/real_policy_45.json
+[186/600] policy.json.last from prisyazhnyukrepl12/Kirill-12
+[187/600] pipeline_role_policy.json.tpl from AwesomeCICD/ceratf-deployment-monorepo
+   Saved: policies/real_policy_46.json
+[188/600] hold_time_policy.json.backup from mlevitan96-crypto/trading-bot
+[189/600] pulumi_infra_policy.json.j2 from gurutechit/aws-oidc-bootstrap
+   Saved: policies/real_policy_47.json
+[190/600] push_to_ecr_policy.json.tpl from MancunianSam/piano-lessons-infrastructure
+   Saved: policies/real_policy_48.json
+[191/600] health-check-policy.json.tmpl from pagopa/subdomain-takeover-monitoring
+   Saved: policies/real_policy_49.json
+[192/600] policy.json from openinfradev/tacoplay
+[193/600] darwin_policy.json.backup_1759008188 from danielgonzagat/Darwin-Engine
+[194/600] kms_iam_role_policy.json.tpl from sshastri/terraform-aws-vault-enterprise
+   Saved: policies/real_policy_50.json
+[195/600] s3mrap-policy.json.tpl from seungju12/terraform-aws
+   Saved: policies/real_policy_51.json
+[196/600] iam_policy.json.tpl from aphorise/hashicorp.tf_aws_vault
+   Saved: policies/real_policy_52.json
+[197/600] ssm_iam_role_policy.json.tpl from sshastri/terraform-aws-vault-enterprise
+   Saved: policies/real_policy_53.json
+[198/600] s3bucket_policy.json from LesUski/100-Days-in-Cloud
+   Saved: policies/real_policy_54.json
+[199/600] EmailClassifierBucketAccessRole-TrustPolicy.json from GenesysCloudBlueprints/cx-as-code-cicd-gitactions-blueprint
+   Saved: policies/real_policy_55.json
+[200/600] ecr-lifecycle-policy.json.tpl from qshahrour/qterraform
+[201/600] LambdAuthLostPassword.json from danilop/LambdAuth
+   Saved: policies/real_policy_56.json
+[202/600] skunk_role.json from Netflix-Skunkworks/skunky
+   Saved: policies/real_policy_57.json
+[203/600] dss-lambda.json from HumanCellAtlas/data-store
+   Saved: policies/real_policy_58.json
+[204/600] kubernetes-worker-policy.json from wearemakery/kubestack-aws
+   Saved: policies/real_policy_59.json
+[205/600] states.json from Semantive/blog-step-functions-async-actions
+   Saved: policies/real_policy_60.json
+[206/600] ci-cd.json from HumanCellAtlas/cloud-blobstore
+   Saved: policies/real_policy_61.json
+[207/600] ec2_assume_role_policy.json from nasum/container-era-terraform
+   Saved: policies/real_policy_62.json
+[208/600] dynamo_s3_policy.json from AntoineBendafiSchulmann/FoodSentinelle
+   Saved: policies/real_policy_63.json
+[209/600] WindfarmAlexaSkillPolicy.json from KevinOleniczak/Windfarm-software
+   Saved: policies/real_policy_64.json
+[210/600] policy.json from BoscoTing/exploring-aws-services
+   Saved: policies/real_policy_65.json
+[211/600] aws_backup_role.json from lep511/AWS
+   Saved: policies/real_policy_66.json
+[212/600] activity5.json from asquarezone/awsadministration
+   Saved: policies/real_policy_67.json
+[213/600] Combineaccess.json from SrikanthBommadi/aws-services
+   Saved: policies/real_policy_68.json
+[214/600] iam.aws_secrets_mgr.json from jouellnyc/AWS
+   Saved: policies/real_policy_69.json
+[215/600] Cognito_LambdaEncodeAuth_Role.json from russellday/LambdaEncode
+   Saved: policies/real_policy_70.json
+[216/600] cognito_dt_auth_role.json from lucianmindruta619/AWS-API-Gateway---dt-app
+   Saved: policies/real_policy_71.json
+[217/600] rds-access-policy.json from AJarombek/saints-xctf-infrastructure
+   Saved: policies/real_policy_72.json
+[218/600] prd-database-emr-glue-policy.json from henriqueacc/case_data_master
+   Saved: policies/real_policy_73.json
+[219/600] sns_photo_bucket.json from MaximilianoAguirre/tf-aws-photo-album
+   Saved: policies/real_policy_74.json
+[220/600] IotAllowAWSAllPolicy.json from dpjanes/iotdb-aws-toolkit
+   Saved: policies/real_policy_75.json
+[221/600] rds_s3_export_policy.json from gravelgrinder/aws-rds-postgresql-s3-export
+   Saved: policies/real_policy_76.json
+[222/600] role-policy.json from currentsea/fbctf_puppetized
+   Saved: policies/real_policy_77.json
+[223/600] losthole_s3_policy.json from kmitlProjects/LostHole-Web-Deploy
+   Saved: policies/real_policy_78.json
+[224/600] BlogConsumeTraditional.json from aws-samples/aws-cdk-developing-application-patterns-blog
+   Saved: policies/real_policy_79.json
+[225/600] usage.json from awslabs/aws-fleet-predictive-maintenance
+   Saved: policies/real_policy_80.json
+[226/600] s3listget.json from AntoineBendafiSchulmann/FoodSentinelle
+   Saved: policies/real_policy_81.json
+[227/600] trust_policy.json from seqeralabs/datasets-automation-blog
+   Saved: policies/real_policy_82.json
+[228/600] codepipeline-policy.json from kranthiGE/sample-ecs-deployment
+   Saved: policies/real_policy_83.json
+[229/600] lambda-policy.json from lloydshark/aws-clojurescript-lambda
+   Saved: policies/real_policy_84.json
+[230/600] ec2-limited_Delete_v2.json from yhidetoshi/AWS
+   Saved: policies/real_policy_85.json
+[231/600] terraform.tfstate from erenatalay/aws-terraform
+[232/600] read-only.json from ainchor-labs/terraform-modules
+   Saved: policies/real_policy_86.json
+[233/600] lingli_yang.json from hsamamah/TransitBI
+[234/600] lambda-assume-role.json from blessingogbeh/Mobility-Data-Processing-Pipeline-MDPP
+   Saved: policies/real_policy_87.json
+[235/600] policy.json from scardenast/aws-s3-encryption-lab
+   Saved: policies/real_policy_88.json
+[236/600] AWSLoadBalancerController.json from jcroyoaun/cdk-constructs
+   Saved: policies/real_policy_89.json
+[237/600] WindfarmDataIngestPolicy.json from KevinOleniczak/Windfarm-software
+   Saved: policies/real_policy_90.json
+[238/600] terraform.tfstate.backup from nancytcheby/STACK_TERRAFORM
+[239/600] ec2-admin.json from UCL-ARC/aws-ec2-example
+   Saved: policies/real_policy_91.json
+[240/600] full.json from ainchor-labs/terraform-modules
+   Saved: policies/real_policy_92.json
+[241/600] iam-policy-sfn-preliminary.json from maximus-lee-678/ADMW
+   Saved: policies/real_policy_93.json
+[242/600] assume-role.json from diawyc/myawscli
+[243/600] S3PutObject_my-bucket_comprehend.json from kikuomax/learn-aws-lambda
+   Saved: policies/real_policy_94.json
+[244/600] create-github-oidc-role-policy.json from kyhau/aws-tools
+   Saved: policies/real_policy_95.json
+[245/600] ecr_policy.json from iwonder118/subscrips_terraform
+   Saved: policies/real_policy_96.json
+[246/600] SFDC_User_Policy_Write_Only.json from gravelgrinder/aws-rolesanywhere-sfdc-integration
+   Saved: policies/real_policy_97.json
+[247/600] policy.json from franklee809/AWS-examples
+   Saved: policies/real_policy_98.json
+[248/600] rke-trust-policy.json from moelsayed/k8s-guestbook
+   Saved: policies/real_policy_99.json
+[249/600] check-network.json from MDCurrent/palworld-orchestrator
+   Saved: policies/real_policy_100.json
+[250/600] minglei_ma.json from hsamamah/TransitBI
+[251/600] default_iam_policy.json from kyhau/aws-tools
+   Saved: policies/real_policy_101.json
+[252/600] iam-policy-unauth.json from ceyhunozgun/serverlessHandsfreeAllergyChecker
+   Saved: policies/real_policy_102.json
+[253/600] package.json from dojot/dojot
+[254/600] allowUseOfAWSKey.json from dmitrizpanasas/aws-tasks
+   Saved: policies/real_policy_103.json
+[255/600] policy9.json from asquarezone/awsadministration
+   Saved: policies/real_policy_104.json
+[256/600] ci-cd.json from HumanCellAtlas/data-store
+   Saved: policies/real_policy_105.json
+[257/600] policy.json from xopino/AWS-Templates
+   Saved: policies/real_policy_106.json
+[258/600] eks-policy.json from LogisticsPet/terraform-aws-eks
+   Saved: policies/real_policy_107.json
+[259/600] target-kms-policy-v2.json from gravelgrinder/aws-redshift-account-migration
+   Saved: policies/real_policy_108.json
+[260/600] eks-console-policy.json from aws-samples/sample-bedrock-cost-allocation
+   Saved: policies/real_policy_109.json
+[261/600] container-optimizer-policy.json from PRADEEP-RAJ-VS/V0-Container
+   Saved: policies/real_policy_110.json
+[262/600] developers-ecr-fullaccess-region-policy.json from sidatKSTX/ConsultingFirm_infra
+   Saved: policies/real_policy_111.json
+[263/600] launch.json from rowbottomn/battlesnake-AWS-sagemaker
+   Saved: policies/real_policy_112.json
+[264/600] redshift_demo_policy.json from sudheera96/Orchestrate-Redshift-ETL-using-AWS-Glue-and-Step-Functions
+   Saved: policies/real_policy_113.json
+[265/600] cmtr-27efb7c4-list-all-s3-buckets.json from dmitrizpanasas/aws-tasks
+   Saved: policies/real_policy_114.json
+[266/600] ec2-policy.json from sebsto/xcodeinstall
+   Saved: policies/real_policy_115.json
+[267/600] hashscan_role_policy.json from Vighnesh-07/honey-scan
+   Saved: policies/real_policy_116.json
+[268/600] KarpenterControllerPolicy.json from jcroyoaun/cdk-constructs
+   Saved: policies/real_policy_117.json
+[269/600] ai-bot-runtime-policy.json from andrewgark/interoves_django
+   Saved: policies/real_policy_118.json
+[270/600] policy.json from Gudisa1/AWS-Solution-Architect
+   Saved: policies/real_policy_119.json
+[271/600] role.schema.json from lensesio/json-schemas
+[272/600] ec2-ansible-lab-policy.json from sanjeev0120test/ansible
+   Saved: policies/real_policy_120.json
+[273/600] lambda-execution-policy.json from Hrygt/chargescrub
+   Saved: policies/real_policy_121.json
+[274/600] create-policy.json from collinsefe/chaostoolkit-samples
+[275/600] ComprehendDetectAny.json from kikuomax/learn-aws-lambda
+   Saved: policies/real_policy_122.json
+[276/600] lambda.json from awslabs/chaos-machine
+   Saved: policies/real_policy_123.json
+[277/600] dynamo-readonly-counters.json from luandradesp/python-dynamodb-api
+   Saved: policies/real_policy_124.json
+[278/600] iam-policy-lambda-execute.json from solomonxie/serverless-iac
+   Saved: policies/real_policy_125.json
+[279/600] codepipeline-trust-policy.json from kranthiGE/sample-ecs-deployment
+   Saved: policies/real_policy_126.json
+[280/600] lambda.json from deamaya44/config_inventory2
+   Saved: policies/real_policy_127.json
+[281/600] MSKConnectorRole.json from girithodu/aws-msk-project
+[282/600] ecr_policy.json from nasum/container-era-terraform
+   Saved: policies/real_policy_128.json
+[283/600] rds-kms-policy.json from ronaldbradford/aws-tutorial
+   Saved: policies/real_policy_129.json
+[284/600] studio-servicerole-policy.json from melodyyangaws/karpenter-emr-on-eks
+   Saved: policies/real_policy_130.json
+[285/600] ci-cd.json from HumanCellAtlas/flash-flood
+   Saved: policies/real_policy_131.json
+[286/600] Lambda-ExecutionRole-Policy.json from 3CORESec/AWS-Config-MirrorSession
+   Saved: policies/real_policy_132.json
+[287/600] GithubActionsRole.json from jjuan97/BlossomAWSDeploymentTest
+[288/600] provision.json from nuonco/eks-permissions
+[289/600] lambda-execution-role-policy.json from hrudu-dev/genai-pipeline-arm-aws
+   Saved: policies/real_policy_133.json
+[290/600] codepipeline-policy.json from chamaboy/codepipeline-test
+   Saved: policies/real_policy_134.json
+[291/600] lambda-assume-policy.json from efder/simple-terraform-lambda-app
+[292/600] lambda-assume-policy.json from sumair-aslam09/lambda_function_python
+[293/600] CodeDeployDemo-Trust.json from croixnet/croixnet
+   Saved: policies/real_policy_135.json
+[294/600] template.json from cmrsol/fargate-demo-infrastructure
+[295/600] bedrock-invoke-policy.json from no0ktheali3n/ai-news-pipeline
+   Saved: policies/real_policy_136.json
+[296/600] s3-bucket-policy.json from aws-samples/sample-oumi-fine-tuning-bedrock-cmi
+   Saved: policies/real_policy_137.json
+[297/600] trust-policy.suggested.json from fernando-m-vale/superseller-ia
+   Saved: policies/real_policy_138.json
+[298/600] InfraBuilder.json from sunshine69/ansible-role-bamboo_remote_agent
+   Saved: policies/real_policy_139.json
+[299/600] lambda-fx-ingest-policy.json from floydmoratti/aws-fx-pipeline
+   Saved: policies/real_policy_140.json
+[300/600] ebs_volume_check_Policy.json from MYSTYX7/ebs-smartswitch
+   Saved: policies/real_policy_141.json
+[301/600] sample-aws-policy.json from certbot/certbot
+   Saved: policies/real_policy_142.json
+[302/600] aws-policy.json from hashicorp/nomad-guides
+   Saved: policies/real_policy_143.json
+[303/600] aws-policy.json from balassy/aws-lambda-typescript
+   Saved: policies/real_policy_144.json
+[304/600] sandbox-aws-policy.json from zxkane/openhands-infra
+   Saved: policies/real_policy_145.json
+[305/600] secrets-store-csi-driver-provider-aws-policy.json from hemzaz/tf-atmos
+   Saved: policies/real_policy_146.json
+[306/600] openshift-machine-api-aws-policy.json from redhat-cop/ocp-disconnected-docs
+   Saved: policies/real_policy_147.json
+[307/600] autoscale-aws-policy.json from kinnarrk/kubernetes-gke
+   Saved: policies/real_policy_148.json
+[308/600] aws-policy.json from jacoborus/invoxtestback
+   Saved: policies/real_policy_149.json
+[309/600] aws-policy.json from pluralsight-cloud/aws-cli-develop-applications-locally
+   Saved: policies/real_policy_150.json
+[310/600] aws-policy.json from pallavkothari/vault
+   Saved: policies/real_policy_151.json
+[311/600] MVA-AWS-Policy.json from evolvecloudservicesgit/mva-data-collection
+   Saved: policies/real_policy_152.json
+[312/600] deployment-role-aws-policy.json from shunyeka-spl/waf-automation-aws
+   Saved: policies/real_policy_153.json
+[313/600] aws-policy.json from wildfire20/harmony
+   Saved: policies/real_policy_154.json
+[314/600] intergrations-aws-policy.json from wiz-training/labsartifacts
+   Saved: policies/real_policy_155.json
+[315/600] sample-aws-policy.json from dlapiduz/certbot-s3front
+   Saved: policies/real_policy_156.json
+[316/600] blox-aws-policy.json from Hyperpilotio/hyperpilot-demo
+   Saved: policies/real_policy_157.json
+[317/600] swc-aws-policy.json from CiscoDevNet/cisco-application-first-security-lab
+   Saved: policies/real_policy_158.json
+[318/600] aws-policy.json from atlassian/jira-performance-tests
+   Saved: policies/real_policy_159.json
+[319/600] docker-for-aws-policy.json from omnetpp/docs.omnetpp.org
+   Saved: policies/real_policy_160.json
+[320/600] superstream-aws-policy.json from superstreamlabs/helm-charts
+   Saved: policies/real_policy_161.json
+[321/600] dns-challenge-aws-policy.json from GowrisankarK/fullstack-app-infra-k8s
+   Saved: policies/real_policy_162.json
+[322/600] aws-policy.json from faizsiddiqui/aws-lambda-googlesheet-demo
+   Saved: policies/real_policy_163.json
+[323/600] cspm-aws-policy.json from coralogix/snowbit-cspm-policies
+   Saved: policies/real_policy_164.json
+[324/600] required-aws-policy.json from blynxai/agenticAIeducation
+   Saved: policies/real_policy_165.json
+[325/600] sample-aws-policy.json from onpointglobal/op-certbot
+   Saved: policies/real_policy_166.json
+[326/600] required-aws-policy.json from skinread/agentic-ai
+   Saved: policies/real_policy_167.json
+[327/600] clouddriver-aws-policy.json from Rahu2000/eksctl-demo
+   Saved: policies/real_policy_168.json
+[328/600] aws-policy.json from Ajang-Deng98/studyshare
+   Saved: policies/real_policy_169.json
+[329/600] superstream-aws-policy.json from superstreamlabs/superstream-engine
+   Saved: policies/real_policy_170.json
+[330/600] aws-policy.json from fabioleal2712/n8n-waha-ia
+   Saved: policies/real_policy_171.json
+[331/600] deploy-aws-policy.json from eficode/sproutadt
+   Saved: policies/real_policy_172.json
+[332/600] aws-policy.json from platform9/support-locker
+   Saved: policies/real_policy_173.json
+[333/600] aws-policy.json from gkwa/comedyshot
+   Saved: policies/real_policy_174.json
+[334/600] aws-policy.json from jmca-03/eb-gh-actions-php
+   Saved: policies/real_policy_175.json
+[335/600] aws-policy.json from yukshimizu/bootc-rhel-management-setup
+   Saved: policies/real_policy_176.json
+[336/600] custom-aws-policy.json from Mahi-7801/scraper-backend
+   Saved: policies/real_policy_177.json
+[337/600] aws-policy.json from Taraman12/Solarpark-detection
+   Saved: policies/real_policy_178.json
+[338/600] aws-policy.json from gauravrahul/CloudGuard
+   Saved: policies/real_policy_179.json
+[339/600] aws-policy.json from continuousphp/aws-swf
+   Saved: policies/real_policy_180.json
+[340/600] sandbox-aws-policy.json from wiz-training/labsartifacts
+   Saved: policies/real_policy_181.json
+[341/600] aws-policy.json from 0Nafi0/pdf-pulse
+   Saved: policies/real_policy_182.json
+[342/600] sample-aws-policy.json from link-u/certbot-dns-route53-less
+   Saved: policies/real_policy_183.json
+[343/600] aws-policy.json from t18n/prisma2-graphql-aws-cdk
+   Saved: policies/real_policy_184.json
+[344/600] aws-policy.json from ignacio-hernani/vault-secret-sync-demo-aws
+   Saved: policies/real_policy_185.json
+[345/600] aws-policy.json from aviadhaham/cloudcate
+   Saved: policies/real_policy_186.json
+[346/600] aws-policy.json from PLAB-IO/aws-elasticsearch-cluster
+   Saved: policies/real_policy_187.json
+[347/600] aws-policy.json from yy2025-program/tech-website
+   Saved: policies/real_policy_188.json
+[348/600] aws-policy.json from dawnenakey/sonzoSLR
+   Saved: policies/real_policy_189.json
+[349/600] aws-policy.json from torstenwerner/ai-term
+   Saved: policies/real_policy_190.json
+[350/600] aws-policy.json from awsdevop183/kubernetes
+   Saved: policies/real_policy_191.json
+[351/600] aws-policy.json from redhat-cop/redhat-image-mode-demo
+   Saved: policies/real_policy_192.json
+[352/600] aws-policy.json from zacheusz/ballistic-calculator
+   Saved: policies/real_policy_193.json
+[353/600] aws-policy.json from Avielyo10/parking-lot
+   Saved: policies/real_policy_194.json
+[354/600] aws-policy.json from vipink1203/aws-athena-mcp-server
+   Saved: policies/real_policy_195.json
+[355/600] aws-policy.json from rcompos/kubespray-and-pray
+   Saved: policies/real_policy_196.json
+[356/600] aws-policy.json from AlexNPavel/tectonic-vagrant-test
+   Saved: policies/real_policy_197.json
+[357/600] aws-policy.json from platform9/support-locker
+   Saved: policies/real_policy_198.json
+[358/600] aws-policy.json from simplyblock/simplyBlockDeploy
+   Saved: policies/real_policy_199.json
+[359/600] aws-policy.json from happylinks/blrplt
+   Saved: policies/real_policy_200.json
+[360/600] aws-policy.json from Roshan-Develop-1995/1finstop-auth-service-grpc
+   Saved: policies/real_policy_201.json
+[361/600] aws-policy.json from reno77/nextjs_truck_wash_test_app
+   Saved: policies/real_policy_202.json
+[362/600] aws-policy.json from AlexSTJO/orca-pipeline
+   Saved: policies/real_policy_203.json
+[363/600] aws-policy.json from nduong2000/aws-billing-backend-lambda
+   Saved: policies/real_policy_204.json
+[364/600] aws-policy.json from jmstout/dynamodb-backup-scheduler
+   Saved: policies/real_policy_205.json
+[365/600] aws-policy.json from OpenSREHub/aws-mfa
+   Saved: policies/real_policy_206.json
+[366/600] aws-policy.json from wagnerfsilva/snapliApi
+   Saved: policies/real_policy_207.json
+[367/600] aws-policy.json from semplates/aws-ses-template-manager
+   Saved: policies/real_policy_208.json
+[368/600] aws-policy.json from redaphid/docker-compose-ecs-test
+   Saved: policies/real_policy_209.json
+[369/600] aws-policy.json from Facets-cloud/facets-schemas
+   Saved: policies/real_policy_210.json
+[370/600] sample-aws-policy.json from mindstorms6/letsencrypt-route53
+   Saved: policies/real_policy_211.json
+[371/600] aws-policy.json from naonao0001777/serverless-password-certification
+   Saved: policies/real_policy_212.json
+[372/600] aws-policy.json from tommynoble/Snapceit
+   Saved: policies/real_policy_213.json
+[373/600] aws-policy.json from aws-ia/terraform-boomi-kubernetes-molecule
+   Saved: policies/real_policy_214.json
+[374/600] aws-policy.json from techiescamp/packer-templates
+   Saved: policies/real_policy_215.json
+[375/600] aws-policy.json from appsumo/mr_meeseeks
+   Saved: policies/real_policy_216.json
+[376/600] aws-policy.json from rberlind/nomad-microservices-demo-with-weave
+[377/600] aws-policy.json from dionis1030/nomad-consul-microservices-demo
+[378/600] aws-policy.json from madslundt/serverless-aws-node-sample
+[379/600] aws-policy.json from tobiaghiraldini/RockPaperScissorsDemo
+[380/600] aws-policy.json from samuraitruong/cryptopaste-api
+[381/600] aws-policy.json from balassy/camview
+[382/600] aws-policy.json from MuhammadMattiullah/AWS-Serverless-Practice
+[383/600] autoscale-aws-policy.json from csye7125-fall2020/kubernetes-gke
+[384/600] autoscale-aws-policy.json from csye7125-fall2020-kinnar-kansara/kubernetes-gke
+[385/600] autoscale-aws-policy.json from csye7125-fall2020-kinnar-kansara/kubernetes
+[386/600] autoscale-aws-policy.json from csye7125-fall2020/kubernetes
+[387/600] sample-aws-policy.json from pan-net-security/certbot
+[388/600] sample-aws-policy.json from fictional-tribble-2/certbot--certbot
+[389/600] sample-aws-policy.json from mami-project/lurk
+[390/600] sample-aws-policy.json from mitnk/certbot
+[391/600] sample-aws-policy.json from G-Core/certbot
+[392/600] sample-aws-policy.json from MrE-Fog/certbot
+[393/600] sample-aws-policy.json from MrE-Fog/certbot100
+[394/600] sample-aws-policy.json from MrE-Fog/certbot11
+[395/600] sample-aws-policy.json from X-oss-byte/Certbot
+[396/600] sample-aws-policy.json from BlackGasper1/certbot.
+[397/600] sample-aws-policy.json from magd737935355/AXHY
+[398/600] sample-aws-policy.json from magd737935355/ASD
+[399/600] sample-aws-policy.json from nightmareze1/zz
+[400/600] required-aws-policy.json from blynxai/agenticAIeducation
+[401/600] AWS-CDA.md from rishabkumar7/CloudNotes
+[402/600] aws.md from debianmaster/openshift-the-hard-way
+[403/600] AWS.md from EnigmaCurry/d.rymcg.tech
+[404/600] s3.md from dragonflydb/dragonfly-operator
+[405/600] doc.md from librespeed/speedtest
+[406/600] aws.md from alexhokl/notes
+[407/600] NEWS from mongodb/mongo-c-driver
+[408/600] FAQ.md from aws-amplify/amplify-hosting
+[409/600] Aws.md from satishdevops777/Devops
+[410/600] AWS.md from AngelJuanMa/Pentesting
+[411/600] ECR.md from aws-samples/jenkins-cloudformation-deployment-example
+[412/600] IAM.md from minhntm/aws-solutions-architect-associate-certificate
+[413/600] OPS.md from OperationCode/back-end
+[414/600] llm.md from open-constructs/projen-pipelines
+[415/600] fu.txt from freeload101/SCRIPTS
+[416/600] iam-notes.md from mahesh430/Devops-Handson-Training
+[417/600] ip.md from tc39/how-we-work
+[418/600] pl.po from cockpit-project/cockpit-podman
+[419/600] Q&A.md from nonzzz/vite-plugin-compression
+[420/600] t.txt from Evently-Event-Management/infra-ticketly
+[421/600] API.md from sqliteai/sqlite-sync
+[422/600] NEWS from OpenSCAP/openscap
+[423/600] 097.md from imShakil/100-Days-Of-DevOps-Challenge-KodeKloud
+[424/600] s3.txt from avizway1/aug2023
+[425/600] NEWS from lighttpd/lighttpd1.4
+[426/600] API.md from ZephrFish/BugBountyTemplates
+[427/600] k8s.md from yanhan/reading-list
+[428/600] 1.txt from rix4uni/WordList
+[429/600] cs.txt from whitedevil-cloud/tea
+[430/600] v2.md from asishrs/smartthings-ringalarmv2
+[431/600] gcp.md from hyunjun/bookmarks
+[432/600] en.json from AlexandreSona/teste
+   Saved: policies/real_policy_217.json
+[433/600] s3.txt from adeoyedewale/static-website-in-Terraform
+[434/600] AWS-SAA.md from rishabkumar7/CloudNotes
+[435/600] 4.txt from NakshathraBathula/AWS
+[436/600] en.txt from boyu-ai/Hands-on-NLP
+[437/600] API.md from cdklabs/cdk-pipelines-github
+[438/600] git.md from costinEEST/almanacs
+[439/600] 18.md from LuNiZz/websec101
+[440/600] 91道常见的Kubernetes面试题总结.md from 0voice/k8s_awesome_document
+[441/600] DEV.md from flightlesstux/S3-Directory-Listing
+[442/600] NEWS from freeciv/freeciv
+[443/600] API.md from cdklabs/cdk-stacksets
+[444/600] s3.txt from avizway1/july2023
+[445/600] ai.txt from shivammm21/shivammm21.github.io
+[446/600] NEWS from Igalia/cog
+[447/600] s3.txt from avizway1/sep2022
+[448/600] s3.txt from avizway1/oct2022
+[449/600] s3.txt from avizway1/roughnotes
+[450/600] e.txt from cloudninjaops/cloud-automation-scripts
+[451/600] 11.md from nostr-jp/nips-ja
+[452/600] API.md from awslabs/llrt
+[453/600] S3.txt from den330/AWSNotes
+[454/600] url.md from 74th/iot-server-book-code
+[455/600] OPR.md from Idyll-Intelligent-Systems/MS-M
+[456/600] AWS.md from hyperi-io/repo-backup
+[457/600] NEWS from zmanda/amanda
+[458/600] OPA.md from TryToLearnProgramming/opa-terraform-policies
+[459/600] API.md from dbsystel/cdk-sops-secrets
+[460/600] s3.txt from ramesh1918s/Class_AWS_915454
+[461/600] API.md from cdklabs/cdk-ecs-codedeploy
+[462/600] v1.md from sysdiglabs/secure-inline-scan
+[463/600] hcl.md from Lorite/lorite-personal-learning
+[464/600] ec2.md from chaithrakc/aws-certification
+[465/600] t.md from omar99elnemr/Docubot
+[466/600] d.txt from Lakshay-sethi/Amazon-Q-game
+[467/600] SRE.md from hoangsonww/EstateWise-Chapel-Hill-Chatbot
+[468/600] iam.md from Uni-bob/aws-cert-notes
+[469/600] 100.md from songguoxs/gpt4o-image-prompts
+[470/600] iam.md from ariesmcrae/aws_notes
+[471/600] API.md from pepperize/cdk-ses-smtp-credentials
+[472/600] PRD.md from rocklambros/llm-safety-alignment-study
+[473/600] tf1.6 from jackAAfdfggg566s/new_demo1
+[474/600] l.txt from tushkum34-cloud/pylibsmeta
+[475/600] eks.md from Tanmoy037/Kubernetes-resources
+[476/600] API.md from cdklabs/cdk-verified-permissions
+[477/600] PRD.md from raccoonyy/awspirin
+[478/600] 82.txt from devrgar-cyber/ghostlinklabs
+[479/600] sa.md from Peihu2020/eks
+[480/600] go.md from ibm-cloud-docs/cloud-object-storage
+[481/600] API.md from alma-cdk/openapix
+[482/600] API.md from mbonig/secret
+[483/600] NEWS from clutter-project/mx
+[484/600] 12.rst from forest-town/repo-2541725
+[485/600] 24.rst from forest-town/repo-2541725
+[486/600] 21.rst from forest-town/repo-2541725
+[487/600] 19.rst from forest-town/repo-2541725
+[488/600] n.rst from forest-town/repo-2541725
+[489/600] 16.rst from forest-town/repo-2541725
+[490/600] aws.md from WurthElektronik/Calypso-IoT-PnP-Design-Kit
+[491/600] API.md from git-Suyash/awstopoFrontend
+[492/600] 13.rst from forest-town/repo-2541725
+[493/600] API.md from tmokmss/opensearch-rest-resources
+[494/600] iam.md from CokeLee777/aws-certified-developer-summary
+[495/600] PRD.md from johnoct/a3s
+[496/600] cn.txt from refengs/BurpSuiteCn-myself
+[497/600] AWS.md from aleonello/technical-notes
+[498/600] KMS.md from usemantle/dugout
+[499/600] API.md from awslabs/sbt-aws
+[500/600] aws.md from nomtrosk/cheatsheets
+[501/600] hcl.md from adambard/learnxinyminutes-docs
+[502/600] todo.md from antonbabenko/terraform-best-practices
+[503/600] iam.md from bhargavsp/aws_solution-architect
+[504/600] IAM.md from naveen-uppala/AWS-Azure
+[505/600] iam-notes.md from mahesh430/Devops-Handson-Training
+[506/600] FAQ.md from aws-amplify/amplify-hosting
+[507/600] NEWS from mongodb/mongo-c-driver
+[508/600] ds.md from ty4z2008/Qix
+[509/600] ELB.md from infochimps-labs/ironfan
+[510/600] eks.md from HariSekhon/Knowledge-Base
+[511/600] api.md from cloudflare/cloudflare-go
+[512/600] spec.md from compose-spec/compose-spec
+[513/600] gcp.md from hyunjun/bookmarks
+[514/600] OPS.md from OperationCode/back-end
+[515/600] AWS.md from guardian/recommendations
+[516/600] ch12.md from BaronStack/book_paper
+[517/600] 15.qmd from ASKurz/Statistical_Rethinking_with_brms_ggplot2_and_the_tidyverse_2_ed
+[518/600] DIY.md from aws-samples/sagemaker-run-notebook
+[519/600] go.org from kitnil/notes
+[520/600] pac.txt from 1a57danc3/gfvvlist
+[521/600] AWS-CDA.md from rishabkumar7/CloudNotes
+[522/600] SSO.md from Timshel/OIDCWarden
+[523/600] llm.md from open-constructs/projen-pipelines
+[524/600] s3.txt from avizway1/march2022
+[525/600] NEWS from namhyung/uftrace
+[526/600] IAM.md from AmalSunny992/AWS_Basics
+[527/600] cli.md from abcxyz/guardian
+[528/600] API.md from kcwinner/cdk-appsync-transformer
+[529/600] Sentiment_Analysis.md from mahendrabairagi/DeeplensWorkshop
+[530/600] API.md from cdklabs/cdk-pipelines-github
+[531/600] GSG.md from FreeRTOS/iot-reference-nxp-rt1060
+[532/600] iam.md from shetty-prasad/aws
+[533/600] API.md from cdklabs/cdk-ecr-deployment
+[534/600] S3.txt from zachkohl/KingsClub
+[535/600] API.md from awslabs/cdk-serverless-clamscan
+[536/600] NEWS from samtools/htslib
+[537/600] s3.txt from avizway1/oct2022
+[538/600] iam.md from joejag/aws_exam_notes
+[539/600] iam.md from thuo-huynh/aws-cloud-practioner-notes
+[540/600] iam.md from SharinaS/Cloud-Engineering-Fundamentals
+[541/600] F2E.md from OXOYO/F2E-Tutorial-Collect
+[542/600] IAM.md from anuragambuja/data-engineering-gcp
+[543/600] IAM.md from RangasamyArran/gcp-pca
+[544/600] adl.txt from Sanket-kurle123/adl
+[545/600] AWS.MD from tawanda/cheetsheets
+[546/600] s3.txt from avizway1/sep2022
+[547/600] IAM.md from Amitkumar-Vaghela/AWS_Services
+[548/600] cv.txt from Abdul-Gafur/myportfolio
+[549/600] AWS.txt from sandy193/DevOps
+[550/600] s3.txt from boychongzen18/Bug-Host-All-Operator
+[551/600] IAM.md from SandeepKomal/AWS
+[552/600] cdns.md from barrel/barrel-dev-how-tos
+[553/600] NEWS from ConsoleKit2/ConsoleKit2
+[554/600] API.md from aripalo/aws-cdk-github-oidc
+[555/600] vpc.md from warolv/jenkins-eks
+[556/600] X.txt from cupOJoseph/XforYgen
+[557/600] IAM.md from CorruptBytes/note
+[558/600] NEWS.md from wlandau/crew.aws.batch
+[559/600] faq.md from opendataphilly/opendataphilly-jkan
+[560/600] 19.3.md from marisqq/ceh-v13
+[561/600] blog.md from clarityAIBot/clarity_background_agent
+[562/600] k8s.md from yanhan/good-reads
+[563/600] iam.md from todayisnow/AWS
+[564/600] iot.md from strongjz/aws-big-data-study
+[565/600] API.md from cargo-lambda/cargo-lambda-cdk
+[566/600] ECR.md from aws-samples/jenkins-cloudformation-deployment-example
+[567/600] qw.txt from sparkychen/mloray
+[568/600] API.md from cdklabs/cdk-ecs-service-extensions
+[569/600] PLAM.md from datascientest-fastAPI-project-group-25/fastAPI-project-infra
+[570/600] NEWS from jython/jython
+[571/600] aws.md from alexhokl/notes
+[572/600] IAM.md from GurikR/AWS
+[573/600] sox.md from rkm-ravi94/awesome-it-compliance
+[574/600] bbl.md from myminseok/pivotal-docs
+[575/600] itil.md from rkm-ravi94/awesome-it-compliance
+[576/600] RUN.md from Goldcap/iars-terraform
+[577/600] alb.md from Narendra-Geddam/eks-terraform
+[578/600] API.md from jogold/cloudstructs
+[579/600] IaC.txt from PrathamParekh23/wildrydes-helloworld
+[580/600] API.md from mbonig/state-machine
+[581/600] s3.txt from JeevanKetha/AWS-Notes
+[582/600] RFC.md from bluvibytes/zone-of-distrust
+[583/600] API.md from zxkane/snat
+[584/600] IAM.md from vamshireddy903/GCP-Learning
+[585/600] IAM.md from ih810/AWS_notes
+[586/600] NEWS from ganeti/ganeti
+[587/600] API.md from cdklabs/aws-lambda-rust
+[588/600] kb.txt from dhruvsahu007/chroma-db-test
+[589/600] 2.6.md from InteractiveAdvertisingBureau/openrtb2.x
+[590/600] API.md from alma-cdk/openapix
+[591/600] go.md from ibm-cloud-docs/cloud-object-storage
+[592/600] aws.txt from Gaini-Laxman/Interview-QA
+[593/600] AI.md from rhyscraig/aws-terraform-platform-tenant-bootstrap
+[594/600] RTK.md from mlucascosta/ia_boilerplate
+[595/600] help.md from Yagna-69/CS-Capstone
+[596/600] aws.md from nycitt/codementor-example
+[597/600] NEWS from heimdal/heimdal
+[598/600] FAQ.md from jjdarcy/cantrilltips
+[599/600] ZIG.Rmd from sfigary/website
+[600/600] API.md from opencdk8s/cdk8s-aws-lb-controller
+
+============================================================
+SCRAPING COMPLETE
+   Total policies saved: 218
+   Added this round: 218
+   Duplicates skipped: 27
+   Errors: 0
+   Location: policies/
+
+   Need 282 more policies to reach target
+   Run this script again to collect more!
+============================================================
+
+Waiting 10 seconds before next round...
+
+============================================================
+ROUND 2 of 5
+============================================================
+
+============================================================
+GitHub IAM Policy Scraper (Anti-Duplicate)
+============================================================
+Target: 500 policies
+Currently have: 218 policies
+Remaining to collect: 282
+
+
+Searching GitHub: filename:iam.json
+   Found 100 files
+
+Searching GitHub: filename:policy.json
+   Found 100 files
+
+Searching GitHub: path:iam language:json Statement
+   Found 100 files
+
+Searching GitHub: filename:aws-policy.json
+   Found 100 files
+
+Searching GitHub: AWS policy json
+   Found 100 files
+
+Searching GitHub: IAM policy github
+   Found 100 files
+
+Total items found: 600
+Downloading policies...
+
+[1/600] iam.jsonnet from kapicorp/kapitan
+[2/600] cesarwilliam.json from remy/mit-license
+[3/600] iam.json from huseyinbabal/taws
+[4/600] iam.json.tpl from aws-samples/terraform-aws-organization-policies
+   Saved: policies/real_policy_218.json
+[5/600] diam.json from hubingkang/vocabulary-corpus
+[6/600] bosh-core-stemcells_iam.json from cloudfoundry/bosh-linux-stemcell-builder
+   Saved: policies/real_policy_219.json
+[7/600] william.json from bluzi/name-db
+[8/600] iam.json.orig from Glairly/introduction_to_tensorflow
+[9/600] iam.json.new from vishal710/GoogleCloudPlatform-training-data-analyst
+[10/600] miriam.json from CDLUC3/N2T
+[11/600] kops-iam.json from bgeesaman/hhkbe
+[12/600] IAM.json from opencdx/opencdx
+[13/600] oneoe_iam.json from oci-landing-zones/oci-landing-zone-operating-entities
+[14/600] iam.json-reformat.py from bwnyasse/learning-box
+[15/600] airiam.json from STFCcommunity/data
+[16/600] iam.json.tftpl from MatDevel0per/terraform_module_scaffold
+[17/600] ebs-iam.json.tmpl from pfenerty/talos-aws-terraform
+   Saved: policies/real_policy_220.json
+[18/600] mniam.json from nice-registry/dependent-packages
+[19/600] sample-iam.json from SmarterServices/IAM
+   Saved: policies/real_policy_221.json
+[20/600] liam.json.old from STBRR/YamatoLegacy
+[21/600] santiam.json5 from krzysztofrewak/hops
+[22/600] Priam.jsonld from scta/scta-people
+[23/600] sciam.json from j6k4m8/Congress-Twitter-Followers
+[24/600] Aniam.json from BibleAquifer/ACAI
+[25/600] EJPIAm.json from j6k4m8/Congress-Twitter-Followers
+[26/600] Miriam.json from BibleAquifer/ACAI
+[27/600] sample_config_iam.json from cwig/simple_hwr
+[28/600] emeryiam.json from j6k4m8/Congress-Twitter-Followers
+[29/600] WisamIAm.json from j6k4m8/Congress-Twitter-Followers
+[30/600] CF-IAM.json from RedHatDemos/SecurityDemos
+[31/600] Thing2Iam.json from j6k4m8/Congress-Twitter-Followers
+[32/600] Liam.json from ExtraE113/moltbook_data
+[33/600] sciam.json from JohnMarkOckerbloom/onlinebooks
+[34/600] jsiam.json from JohnMarkOckerbloom/onlinebooks
+[35/600] liam.json from datasets-io/female-first-names-us-frequency
+[36/600] liam.json from MaddieM4/djdns-hype-flat
+[37/600] OIAM.json from geoffmcl/map-test2
+[38/600] VIAM.json from geoffmcl/map-test2
+[39/600] SIAM.json from geoffmcl/map-test2
+[40/600] ariam.json from datasets-io/female-first-names-us-frequency
+[41/600] adiam.json from datasets-io/female-first-names-us-frequency
+[42/600] mariam.json from datasets-io/female-first-names-us-frequency
+[43/600] liliam.json from datasets-io/female-first-names-us-frequency
+[44/600] myriam.json from datasets-io/female-first-names-us-frequency
+[45/600] washifyIAM.json from Washify-EGS/IAM
+[46/600] CrisIAm.json from ExtraE113/moltbook_data
+[47/600] lilliam.json from datasets-io/female-first-names-us-frequency
+[48/600] gilliam.json from datasets-io/female-first-names-us-frequency
+[49/600] mirriam.json from datasets-io/female-first-names-us-frequency
+[50/600] jilliam.json from datasets-io/female-first-names-us-frequency
+[51/600] VIAM.json from geoffmcl/map-test2
+[52/600] OIAM.json from geoffmcl/map-test2
+[53/600] WIAM.json from geoffmcl/map-test2
+[54/600] SIAM.json from geoffmcl/map-test2
+[55/600] kiam.json from datasets-io/male-first-names-us-frequency
+[56/600] tiam.json from datasets-io/male-first-names-us-frequency
+[57/600] siam.json from datasets-io/male-first-names-us-frequency
+[58/600] iam.json from robotocore/robotocore
+[59/600] chiam.json from datasets-io/male-first-names-us-frequency
+[60/600] eliam.json from datasets-io/male-first-names-us-frequency
+[61/600] leiam.json from datasets-io/male-first-names-us-frequency
+[62/600] lliam.json from datasets-io/male-first-names-us-frequency
+[63/600] EC2snapshotIAM.json from giancarlopetrini/aws-snapshot-automation
+   Saved: policies/real_policy_222.json
+[64/600] wiliam.json from datasets-io/male-first-names-us-frequency
+[65/600] wlliam.json from datasets-io/male-first-names-us-frequency
+[66/600] illiam.json from datasets-io/male-first-names-us-frequency
+[67/600] liam.json from 0xbzho/onename
+[68/600] gilliam.json from datasets-io/male-first-names-us-frequency
+[69/600] wylliam.json from datasets-io/male-first-names-us-frequency
+[70/600] wiiliam.json from datasets-io/male-first-names-us-frequency
+[71/600] ephriam.json from datasets-io/male-first-names-us-frequency
+[72/600] wwlliam.json from datasets-io/male-first-names-us-frequency
+[73/600] siam.json from hanjoyo/kbbi
+[74/600] riam.json from hanjoyo/kbbi
+[75/600] kiam.json from hanjoyo/kbbi
+[76/600] tiam.json from hanjoyo/kbbi
+[77/600] willliam.json from datasets-io/male-first-names-us-frequency
+[78/600] williiam.json from datasets-io/male-first-names-us-frequency
+[79/600] wwilliam.json from datasets-io/male-first-names-us-frequency
+[80/600] winiam.json from 0xbzho/onename
+[81/600] daniam.json from 0xbzho/onename
+[82/600] taliam.json from 0xbzho/onename
+[83/600] jimiam.json from 0xbzho/onename
+[84/600] kthiam.json from 0xbzho/onename
+[85/600] mariam.json from 0xbzho/onename
+[86/600] googleapis.com_iam.json from bhumikanilesh/api-explorer-pipeline
+[87/600] rmiriam.json from 0xbzho/onename
+[88/600] iam_iam.json from 0xbzho/onename
+[89/600] pik-piam.json from r-universe-org/cran-to-git
+[90/600] event_iam.json from MattTunny/watch-security-group
+[91/600] meriam.json from hanjoyo/kbbi
+[92/600] sediam.json from hanjoyo/kbbi
+[93/600] sirwilliam.json from datasets-io/male-first-names-us-frequency
+[94/600] jgilliam.json from 0xbzho/onename
+[95/600] cgilliam.json from 0xbzho/onename
+[96/600] uuilliam.json from 0xbzho/onename
+[97/600] 2william.json from 0xbzho/onename
+[98/600] packer-iam.json from evgeny-goldin/playbooks
+   Saved: policies/real_policy_223.json
+[99/600] berdiam.json from hanjoyo/kbbi
+[100/600] johnwilliam.json from datasets-io/male-first-names-us-frequency
+[101/600] CorsPolicy.json.cs from Azure/azure-powershell
+[102/600] 04_policy.json.j2 from hiddify/Hiddify-Manager
+[103/600] bucket-policy.json.template from pachyderm/pachyderm
+   Saved: policies/real_policy_224.json
+[104/600] OIDC-Policy.json.template from hpcc-systems/HPCC-Platform
+   Saved: policies/real_policy_225.json
+[105/600] policy.json.adoc from stolostron/rhacm-docs
+[106/600] policy.json.dist from devture/matrix-corporal
+[107/600] policy.json.tpl from monterail/terraform-bootstrap-example
+[108/600] united-policy.json-in-cinder.rst from openstack/cinder-specs
+[109/600] stage-scaling-policy.json.j2 from foremast/foremast
+[110/600] _policy.json.jbuilder from openaustralia/theyvoteforyou
+[111/600] CreatePolicy.json.cloudtrail from adanalvarez/TrailDiscover
+[112/600] policy.json from SS-archive/salt-states
+[113/600] _policy.json.tpl from sapcc/helm-charts
+[114/600] DisableRegionsPolicy.json.tftpl from primeharbor/org-kickstart
+[115/600] kmspolicy.json.tpl from Capgemini/TerraKube-AWS
+   Saved: policies/real_policy_226.json
+[116/600] lambda_policy.json.erb from coinbase/bifrost
+   Saved: policies/real_policy_227.json
+[117/600] debuggers_policy.json.orig from cunningham-lab/neurocaas
+   Saved: policies/real_policy_228.json
+[118/600] bucket-policy.json from trek10inc/serverless-video-sharing
+   Saved: policies/real_policy_229.json
+[119/600] bucket_policy.json.tpl from koding/tf_zookeeper
+   Saved: policies/real_policy_230.json
+[120/600] iam_role_policy.json from DevOpsRunbook/FastCampus
+   Saved: policies/real_policy_231.json
+[121/600] llm_policy.json.raw.txt from GiangHoGoVap/LLM-ALNS
+[122/600] AssumeRolepolicy.json.txt from UnfoldDataScience/Agentic_Ai_For_Beginner
+[123/600] containers-policy.json.5.md from ciq-rocky-lts/containers-common
+[124/600] policy.json.j2 from stephenpearson/hos_config
+[125/600] policy.json.j2 from ArdanaCLM/ceilometer-ansible
+[126/600] policy.json.j2 from validatedpatterns/hypershift-automation
+   Saved: policies/real_policy_232.json
+[127/600] valueset-consent-policy.json.html from ebmonfhir/publish
+[128/600] v3-SecurityPolicy.json.html from fhir-ru/built-test
+[129/600] dynamodb-policy.json.sample from lakshminarasimmanv/narasimman-tech-tf
+   Saved: policies/real_policy_233.json
+[130/600] hadoop-policy.json.j2 from clemlabprojects/ansible-odp-cluster-installation
+[131/600] trust-policy.json.tpl from cbfield/terraform-aws-irsa
+[132/600] step_policy.json.erb from fakeNetflix/coinbase-repo-geoengineer
+   Saved: policies/real_policy_234.json
+[133/600] valueset-versioning-policy.json.html from bcl-lab/FHIR_CG_web
+[134/600] policy.json.sample.license from brlin-tw/neko-container
+[135/600] k8s_r53_role_policy.json.tpl from AwesomeCICD/ceratf-module-helm-istio
+   Saved: policies/real_policy_235.json
+[136/600] kms-key-policy.json.tpl from dxw/terraform-dxw-dalmatian-account-bootstrap
+[137/600] valueset-versioning-policy.json.html from ebmonfhir/publish
+[138/600] sns_send_message_policy.json.tpl from nationalarchives/dr2-ingest
+   Saved: policies/real_policy_236.json
+[139/600] key_access_policy.json.tpl from psgpyc/AWS-INFRA-TERRAFORM
+   Saved: policies/real_policy_237.json
+[140/600] codesystem-versioning-policy.json.html from bcl-lab/FHIR_CG_web
+[141/600] contract-example-ins-policy.json.html from ebmonfhir/publish
+[142/600] kms-key-policy.json.tpl from cbfield/terraform-aws-rds-cluster
+   Saved: policies/real_policy_238.json
+[143/600] kube2iam-policy.json.j2 from ctg123/ansible-kops
+   Saved: policies/real_policy_239.json
+[144/600] ilm_policy.json.j2 from GuillaumeWaignier/fibaro-dashboard
+[145/600] s3-bucket-policy.json.tpl from dxw/terraform-aws-tfvars-s3
+[146/600] policy.json.5.md from lunar-linux/moonbase-other
+[147/600] GlueAccessPolicy.json.tpl from ricardo-mattoss/ggvd-data-pipeline
+   Saved: policies/real_policy_240.json
+[148/600] codesystem-versioning-policy.json.html from ebmonfhir/publish
+[149/600] policy.json.j2 from pascal71/k8s4all-ansible
+[150/600] node-trust-policy.json.j2 from ctg123/ansible-kops
+   Saved: policies/real_policy_241.json
+[151/600] codebuild-policy.json.tpl from bitcot/terraform-aws-wordpress-beanstalk
+   Saved: policies/real_policy_242.json
+[152/600] notification-policy.json.template from kurron/terraform-environments
+   Saved: policies/real_policy_243.json
+[153/600] policy.json.template from seanrmurphy/go-fullstack
+[154/600] trust-policy.json.tmpl from stclaird/cloud-oidc
+   Saved: policies/real_policy_244.json
+[155/600] repository-policy.json.tpl from cbfield/terraform-aws-ecr-repository
+[156/600] apigateway_policy.json.tpl from serverless-ca/api-gateway
+   Saved: policies/real_policy_245.json
+[157/600] lambda-policy.json.bak from GarrettOHara/scripts
+   Saved: policies/real_policy_246.json
+[158/600] assume-role-policy.json.tpl from cbfield/terraform-aws-eks-cluster
+   Saved: policies/real_policy_247.json
+[159/600] etcd-policy.json.tpl from Smana/terraform-kubernetes
+   Saved: policies/real_policy_248.json
+[160/600] wordpress-s3-policy.json.j2 from dysonfrost/ansible-kops
+   Saved: policies/real_policy_249.json
+[161/600] kptboard_ssm_policy.json.tpl from f96q/kptboard-terraform
+   Saved: policies/real_policy_250.json
+[162/600] wash-kms-key-policy.json.tpl from psgpyc/WASH-Analytics-Engineering-Project
+   Saved: policies/real_policy_251.json
+[163/600] s3_kms_key_policy.json.tpl from psgpyc/AWS-INFRA-TERRAFORM
+   Saved: policies/real_policy_252.json
+[164/600] glance.policy.json.juno from gfa/salt-for-openstack
+[165/600] ecr_repo_policy.json.tpl from cip-p/terraform-aws
+[166/600] CrossChainPolicy.json.ts from scom-repos/oswap-cross-chain-token-contract
+[167/600] policy.json_example from rodrigods/keystone-policy-tests
+[168/600] bucket_policy.json from acantril/aws-sa-associate-saac02
+   Saved: policies/real_policy_253.json
+[169/600] ec2_policy.json.tpl from MancunianSam/piano-lessons-infrastructure
+   Saved: policies/real_policy_254.json
+[170/600] assume-role-policy.json.j2 from validatedpatterns/hypershift-automation
+[171/600] policy.json.erb from SysCompass/compass-adapters
+[172/600] _privacy_policy.json.jbuilder from arataaoshima/smorq
+[173/600] policy.json.tmpl from bkeane/monad
+   Saved: policies/real_policy_255.json
+[174/600] s3_policy.json.j2 from rahulinux/ansible-portus
+   Saved: policies/real_policy_256.json
+[175/600] azurepolicy.json from Azure/Community-Policy
+[176/600] minio-rw-policy.json.jinja from WaylonWalker/homelab-argo
+   Saved: policies/real_policy_257.json
+[177/600] service-role-policy.json from npalm/terraform-aws-ecs-instances
+   Saved: policies/real_policy_258.json
+[178/600] policy.json.j2 from t1mssc/kali-playbook
+[179/600] role_policy.json.tpl from gessy0129/GitHubLoginToCognito
+   Saved: policies/real_policy_259.json
+[180/600] s3_repl_policy.json.j2 from jpmontez/s3_replication
+[181/600] assume_role_policy.json.tmpl from fengjixuchui/kube-registry
+   Saved: policies/real_policy_260.json
+[182/600] diffusion_policy.json from DAVIAN-Robotics/ACG
+[183/600] cloudwatch-logging-policy.json.tpl from Loganair/aws-sftp
+   Saved: policies/real_policy_261.json
+[184/600] ecs_task_policy.json.tpl from MancunianSam/piano-lessons-infrastructure
+   Saved: policies/real_policy_262.json
+[185/600] lambda_policy.json.j2 from auto-processor/definition
+   Saved: policies/real_policy_263.json
+[186/600] policy.json.last from prisyazhnyukrepl12/Kirill-12
+[187/600] pipeline_role_policy.json.tpl from AwesomeCICD/ceratf-deployment-monorepo
+   Saved: policies/real_policy_264.json
+[188/600] hold_time_policy.json.backup from mlevitan96-crypto/trading-bot
+[189/600] pulumi_infra_policy.json.j2 from gurutechit/aws-oidc-bootstrap
+   Saved: policies/real_policy_265.json
+[190/600] push_to_ecr_policy.json.tpl from MancunianSam/piano-lessons-infrastructure
+   Saved: policies/real_policy_266.json
+[191/600] health-check-policy.json.tmpl from pagopa/subdomain-takeover-monitoring
+   Saved: policies/real_policy_267.json
+[192/600] policy.json from openinfradev/tacoplay
+[193/600] darwin_policy.json.backup_1759008188 from danielgonzagat/Darwin-Engine
+[194/600] kms_iam_role_policy.json.tpl from sshastri/terraform-aws-vault-enterprise
+   Saved: policies/real_policy_268.json
+[195/600] s3mrap-policy.json.tpl from seungju12/terraform-aws
+   Saved: policies/real_policy_269.json
+[196/600] iam_policy.json.tpl from aphorise/hashicorp.tf_aws_vault
+   Saved: policies/real_policy_270.json
+[197/600] ssm_iam_role_policy.json.tpl from sshastri/terraform-aws-vault-enterprise
+   Saved: policies/real_policy_271.json
+[198/600] s3bucket_policy.json from LesUski/100-Days-in-Cloud
+   Saved: policies/real_policy_272.json
+[199/600] EmailClassifierBucketAccessRole-TrustPolicy.json from GenesysCloudBlueprints/cx-as-code-cicd-gitactions-blueprint
+   Saved: policies/real_policy_273.json
+[200/600] ecr-lifecycle-policy.json.tpl from qshahrour/qterraform
+[201/600] LambdAuthLostPassword.json from danilop/LambdAuth
+   Saved: policies/real_policy_274.json
+[202/600] skunk_role.json from Netflix-Skunkworks/skunky
+   Saved: policies/real_policy_275.json
+[203/600] dss-lambda.json from HumanCellAtlas/data-store
+   Saved: policies/real_policy_276.json
+[204/600] kubernetes-worker-policy.json from wearemakery/kubestack-aws
+   Saved: policies/real_policy_277.json
+[205/600] states.json from Semantive/blog-step-functions-async-actions
+   Saved: policies/real_policy_278.json
+[206/600] ci-cd.json from HumanCellAtlas/cloud-blobstore
+   Saved: policies/real_policy_279.json
+[207/600] ec2_assume_role_policy.json from nasum/container-era-terraform
+   Saved: policies/real_policy_280.json
+[208/600] dynamo_s3_policy.json from AntoineBendafiSchulmann/FoodSentinelle
+   Saved: policies/real_policy_281.json
+[209/600] WindfarmAlexaSkillPolicy.json from KevinOleniczak/Windfarm-software
+   Saved: policies/real_policy_282.json
+[210/600] policy.json from BoscoTing/exploring-aws-services
+   Saved: policies/real_policy_283.json
+[211/600] aws_backup_role.json from lep511/AWS
+   Saved: policies/real_policy_284.json
+[212/600] activity5.json from asquarezone/awsadministration
+   Saved: policies/real_policy_285.json
+[213/600] Combineaccess.json from SrikanthBommadi/aws-services
+   Saved: policies/real_policy_286.json
+[214/600] iam.aws_secrets_mgr.json from jouellnyc/AWS
+   Saved: policies/real_policy_287.json
+[215/600] Cognito_LambdaEncodeAuth_Role.json from russellday/LambdaEncode
+   Saved: policies/real_policy_288.json
+[216/600] cognito_dt_auth_role.json from lucianmindruta619/AWS-API-Gateway---dt-app
+   Saved: policies/real_policy_289.json
+[217/600] rds-access-policy.json from AJarombek/saints-xctf-infrastructure
+   Saved: policies/real_policy_290.json
+[218/600] prd-database-emr-glue-policy.json from henriqueacc/case_data_master
+   Saved: policies/real_policy_291.json
+[219/600] sns_photo_bucket.json from MaximilianoAguirre/tf-aws-photo-album
+   Saved: policies/real_policy_292.json
+[220/600] IotAllowAWSAllPolicy.json from dpjanes/iotdb-aws-toolkit
+   Saved: policies/real_policy_293.json
+[221/600] rds_s3_export_policy.json from gravelgrinder/aws-rds-postgresql-s3-export
+   Saved: policies/real_policy_294.json
+[222/600] role-policy.json from currentsea/fbctf_puppetized
+   Saved: policies/real_policy_295.json
+[223/600] losthole_s3_policy.json from kmitlProjects/LostHole-Web-Deploy
+   Saved: policies/real_policy_296.json
+[224/600] BlogConsumeTraditional.json from aws-samples/aws-cdk-developing-application-patterns-blog
+   Saved: policies/real_policy_297.json
+[225/600] usage.json from awslabs/aws-fleet-predictive-maintenance
+   Saved: policies/real_policy_298.json
+[226/600] s3listget.json from AntoineBendafiSchulmann/FoodSentinelle
+   Saved: policies/real_policy_299.json
+[227/600] trust_policy.json from seqeralabs/datasets-automation-blog
+   Saved: policies/real_policy_300.json
+[228/600] codepipeline-policy.json from kranthiGE/sample-ecs-deployment
+   Saved: policies/real_policy_301.json
+[229/600] lambda-policy.json from lloydshark/aws-clojurescript-lambda
+   Saved: policies/real_policy_302.json
+[230/600] ec2-limited_Delete_v2.json from yhidetoshi/AWS
+   Saved: policies/real_policy_303.json
+[231/600] terraform.tfstate from erenatalay/aws-terraform
+[232/600] read-only.json from ainchor-labs/terraform-modules
+   Saved: policies/real_policy_304.json
+[233/600] lingli_yang.json from hsamamah/TransitBI
+[234/600] lambda-assume-role.json from blessingogbeh/Mobility-Data-Processing-Pipeline-MDPP
+   Saved: policies/real_policy_305.json
+[235/600] policy.json from scardenast/aws-s3-encryption-lab
+   Saved: policies/real_policy_306.json
+[236/600] AWSLoadBalancerController.json from jcroyoaun/cdk-constructs
+   Saved: policies/real_policy_307.json
+[237/600] WindfarmDataIngestPolicy.json from KevinOleniczak/Windfarm-software
+   Saved: policies/real_policy_308.json
+[238/600] terraform.tfstate.backup from nancytcheby/STACK_TERRAFORM
+[239/600] ec2-admin.json from UCL-ARC/aws-ec2-example
+   Saved: policies/real_policy_309.json
+[240/600] full.json from ainchor-labs/terraform-modules
+   Saved: policies/real_policy_310.json
+[241/600] iam-policy-sfn-preliminary.json from maximus-lee-678/ADMW
+   Saved: policies/real_policy_311.json
+[242/600] assume-role.json from diawyc/myawscli
+[243/600] S3PutObject_my-bucket_comprehend.json from kikuomax/learn-aws-lambda
+   Saved: policies/real_policy_312.json
+[244/600] create-github-oidc-role-policy.json from kyhau/aws-tools
+   Saved: policies/real_policy_313.json
+[245/600] ecr_policy.json from iwonder118/subscrips_terraform
+   Saved: policies/real_policy_314.json
+[246/600] SFDC_User_Policy_Write_Only.json from gravelgrinder/aws-rolesanywhere-sfdc-integration
+   Saved: policies/real_policy_315.json
+[247/600] policy.json from franklee809/AWS-examples
+   Saved: policies/real_policy_316.json
+[248/600] rke-trust-policy.json from moelsayed/k8s-guestbook
+   Saved: policies/real_policy_317.json
+[249/600] check-network.json from MDCurrent/palworld-orchestrator
+   Saved: policies/real_policy_318.json
+[250/600] minglei_ma.json from hsamamah/TransitBI
+[251/600] default_iam_policy.json from kyhau/aws-tools
+   Saved: policies/real_policy_319.json
+[252/600] iam-policy-unauth.json from ceyhunozgun/serverlessHandsfreeAllergyChecker
+   Saved: policies/real_policy_320.json
+[253/600] package.json from dojot/dojot
+[254/600] allowUseOfAWSKey.json from dmitrizpanasas/aws-tasks
+   Saved: policies/real_policy_321.json
+[255/600] policy9.json from asquarezone/awsadministration
+   Saved: policies/real_policy_322.json
+[256/600] ci-cd.json from HumanCellAtlas/data-store
+   Saved: policies/real_policy_323.json
+[257/600] policy.json from xopino/AWS-Templates
+   Saved: policies/real_policy_324.json
+[258/600] eks-policy.json from LogisticsPet/terraform-aws-eks
+   Saved: policies/real_policy_325.json
+[259/600] target-kms-policy-v2.json from gravelgrinder/aws-redshift-account-migration
+   Saved: policies/real_policy_326.json
+[260/600] eks-console-policy.json from aws-samples/sample-bedrock-cost-allocation
+   Saved: policies/real_policy_327.json
+[261/600] container-optimizer-policy.json from PRADEEP-RAJ-VS/V0-Container
+   Saved: policies/real_policy_328.json
+[262/600] developers-ecr-fullaccess-region-policy.json from sidatKSTX/ConsultingFirm_infra
+   Saved: policies/real_policy_329.json
+[263/600] launch.json from rowbottomn/battlesnake-AWS-sagemaker
+   Saved: policies/real_policy_330.json
+[264/600] redshift_demo_policy.json from sudheera96/Orchestrate-Redshift-ETL-using-AWS-Glue-and-Step-Functions
+   Saved: policies/real_policy_331.json
+[265/600] cmtr-27efb7c4-list-all-s3-buckets.json from dmitrizpanasas/aws-tasks
+   Saved: policies/real_policy_332.json
+[266/600] ec2-policy.json from sebsto/xcodeinstall
+   Saved: policies/real_policy_333.json
+[267/600] hashscan_role_policy.json from Vighnesh-07/honey-scan
+   Saved: policies/real_policy_334.json
+[268/600] KarpenterControllerPolicy.json from jcroyoaun/cdk-constructs
+   Saved: policies/real_policy_335.json
+[269/600] ai-bot-runtime-policy.json from andrewgark/interoves_django
+   Saved: policies/real_policy_336.json
+[270/600] policy.json from Gudisa1/AWS-Solution-Architect
+   Saved: policies/real_policy_337.json
+[271/600] role.schema.json from lensesio/json-schemas
+[272/600] ec2-ansible-lab-policy.json from sanjeev0120test/ansible
+   Saved: policies/real_policy_338.json
+[273/600] lambda-execution-policy.json from Hrygt/chargescrub
+   Saved: policies/real_policy_339.json
+[274/600] create-policy.json from collinsefe/chaostoolkit-samples
+[275/600] ComprehendDetectAny.json from kikuomax/learn-aws-lambda
+   Saved: policies/real_policy_340.json
+[276/600] lambda.json from awslabs/chaos-machine
+   Saved: policies/real_policy_341.json
+[277/600] dynamo-readonly-counters.json from luandradesp/python-dynamodb-api
+   Saved: policies/real_policy_342.json
+[278/600] iam-policy-lambda-execute.json from solomonxie/serverless-iac
+   Saved: policies/real_policy_343.json
+[279/600] codepipeline-trust-policy.json from kranthiGE/sample-ecs-deployment
+   Saved: policies/real_policy_344.json
+[280/600] lambda.json from deamaya44/config_inventory2
+   Saved: policies/real_policy_345.json
+[281/600] MSKConnectorRole.json from girithodu/aws-msk-project
+[282/600] ecr_policy.json from nasum/container-era-terraform
+   Saved: policies/real_policy_346.json
+[283/600] rds-kms-policy.json from ronaldbradford/aws-tutorial
+   Saved: policies/real_policy_347.json
+[284/600] studio-servicerole-policy.json from melodyyangaws/karpenter-emr-on-eks
+   Saved: policies/real_policy_348.json
+[285/600] ci-cd.json from HumanCellAtlas/flash-flood
+   Saved: policies/real_policy_349.json
+[286/600] Lambda-ExecutionRole-Policy.json from 3CORESec/AWS-Config-MirrorSession
+   Saved: policies/real_policy_350.json
+[287/600] GithubActionsRole.json from jjuan97/BlossomAWSDeploymentTest
+[288/600] provision.json from nuonco/eks-permissions
+[289/600] lambda-execution-role-policy.json from hrudu-dev/genai-pipeline-arm-aws
+   Saved: policies/real_policy_351.json
+[290/600] codepipeline-policy.json from chamaboy/codepipeline-test
+   Saved: policies/real_policy_352.json
+[291/600] lambda-assume-policy.json from efder/simple-terraform-lambda-app
+[292/600] lambda-assume-policy.json from sumair-aslam09/lambda_function_python
+[293/600] CodeDeployDemo-Trust.json from croixnet/croixnet
+   Saved: policies/real_policy_353.json
+[294/600] template.json from cmrsol/fargate-demo-infrastructure
+[295/600] bedrock-invoke-policy.json from no0ktheali3n/ai-news-pipeline
+   Saved: policies/real_policy_354.json
+[296/600] s3-bucket-policy.json from aws-samples/sample-oumi-fine-tuning-bedrock-cmi
+   Saved: policies/real_policy_355.json
+[297/600] trust-policy.suggested.json from fernando-m-vale/superseller-ia
+   Saved: policies/real_policy_356.json
+[298/600] InfraBuilder.json from sunshine69/ansible-role-bamboo_remote_agent
+   Saved: policies/real_policy_357.json
+[299/600] lambda-fx-ingest-policy.json from floydmoratti/aws-fx-pipeline
+   Saved: policies/real_policy_358.json
+[300/600] ebs_volume_check_Policy.json from MYSTYX7/ebs-smartswitch
+   Saved: policies/real_policy_359.json
+[301/600] sample-aws-policy.json from certbot/certbot
+   Saved: policies/real_policy_360.json
+[302/600] aws-policy.json from hashicorp/nomad-guides
+   Saved: policies/real_policy_361.json
+[303/600] aws-policy.json from balassy/aws-lambda-typescript
+   Saved: policies/real_policy_362.json
+[304/600] sandbox-aws-policy.json from zxkane/openhands-infra
+   Saved: policies/real_policy_363.json
+[305/600] secrets-store-csi-driver-provider-aws-policy.json from hemzaz/tf-atmos
+   Saved: policies/real_policy_364.json
+[306/600] openshift-machine-api-aws-policy.json from redhat-cop/ocp-disconnected-docs
+   Saved: policies/real_policy_365.json
+[307/600] autoscale-aws-policy.json from kinnarrk/kubernetes-gke
+   Saved: policies/real_policy_366.json
+[308/600] aws-policy.json from jacoborus/invoxtestback
+   Saved: policies/real_policy_367.json
+[309/600] aws-policy.json from pluralsight-cloud/aws-cli-develop-applications-locally
+   Saved: policies/real_policy_368.json
+[310/600] aws-policy.json from pallavkothari/vault
+   Saved: policies/real_policy_369.json
+[311/600] MVA-AWS-Policy.json from evolvecloudservicesgit/mva-data-collection
+   Saved: policies/real_policy_370.json
+[312/600] deployment-role-aws-policy.json from shunyeka-spl/waf-automation-aws
+   Saved: policies/real_policy_371.json
+[313/600] aws-policy.json from wildfire20/harmony
+   Saved: policies/real_policy_372.json
+[314/600] intergrations-aws-policy.json from wiz-training/labsartifacts
+   Saved: policies/real_policy_373.json
+[315/600] sample-aws-policy.json from dlapiduz/certbot-s3front
+   Saved: policies/real_policy_374.json
+[316/600] blox-aws-policy.json from Hyperpilotio/hyperpilot-demo
+   Saved: policies/real_policy_375.json
+[317/600] swc-aws-policy.json from CiscoDevNet/cisco-application-first-security-lab
+   Saved: policies/real_policy_376.json
+[318/600] aws-policy.json from atlassian/jira-performance-tests
+   Saved: policies/real_policy_377.json
+[319/600] docker-for-aws-policy.json from omnetpp/docs.omnetpp.org
+   Saved: policies/real_policy_378.json
+[320/600] superstream-aws-policy.json from superstreamlabs/helm-charts
+   Saved: policies/real_policy_379.json
+[321/600] dns-challenge-aws-policy.json from GowrisankarK/fullstack-app-infra-k8s
+   Saved: policies/real_policy_380.json
+[322/600] aws-policy.json from faizsiddiqui/aws-lambda-googlesheet-demo
+   Saved: policies/real_policy_381.json
+[323/600] cspm-aws-policy.json from coralogix/snowbit-cspm-policies
+   Saved: policies/real_policy_382.json
+[324/600] required-aws-policy.json from blynxai/agenticAIeducation
+   Saved: policies/real_policy_383.json
+[325/600] sample-aws-policy.json from onpointglobal/op-certbot
+   Saved: policies/real_policy_384.json
+[326/600] required-aws-policy.json from skinread/agentic-ai
+   Saved: policies/real_policy_385.json
+[327/600] clouddriver-aws-policy.json from Rahu2000/eksctl-demo
+   Saved: policies/real_policy_386.json
+[328/600] aws-policy.json from Ajang-Deng98/studyshare
+   Saved: policies/real_policy_387.json
+[329/600] superstream-aws-policy.json from superstreamlabs/superstream-engine
+   Saved: policies/real_policy_388.json
+[330/600] aws-policy.json from fabioleal2712/n8n-waha-ia
+   Saved: policies/real_policy_389.json
+[331/600] deploy-aws-policy.json from eficode/sproutadt
+   Saved: policies/real_policy_390.json
+[332/600] aws-policy.json from platform9/support-locker
+   Saved: policies/real_policy_391.json
+[333/600] aws-policy.json from gkwa/comedyshot
+   Saved: policies/real_policy_392.json
+[334/600] aws-policy.json from jmca-03/eb-gh-actions-php
+   Saved: policies/real_policy_393.json
+[335/600] aws-policy.json from yukshimizu/bootc-rhel-management-setup
+   Saved: policies/real_policy_394.json
+[336/600] custom-aws-policy.json from Mahi-7801/scraper-backend
+   Saved: policies/real_policy_395.json
+[337/600] aws-policy.json from Taraman12/Solarpark-detection
+   Saved: policies/real_policy_396.json
+[338/600] aws-policy.json from gauravrahul/CloudGuard
+   Saved: policies/real_policy_397.json
+[339/600] aws-policy.json from continuousphp/aws-swf
+   Saved: policies/real_policy_398.json
+[340/600] sandbox-aws-policy.json from wiz-training/labsartifacts
+   Saved: policies/real_policy_399.json
+[341/600] aws-policy.json from 0Nafi0/pdf-pulse
+   Saved: policies/real_policy_400.json
+[342/600] sample-aws-policy.json from link-u/certbot-dns-route53-less
+   Saved: policies/real_policy_401.json
+[343/600] aws-policy.json from t18n/prisma2-graphql-aws-cdk
+   Saved: policies/real_policy_402.json
+[344/600] aws-policy.json from ignacio-hernani/vault-secret-sync-demo-aws
+   Saved: policies/real_policy_403.json
+[345/600] aws-policy.json from aviadhaham/cloudcate
+   Saved: policies/real_policy_404.json
+[346/600] aws-policy.json from PLAB-IO/aws-elasticsearch-cluster
+   Saved: policies/real_policy_405.json
+[347/600] aws-policy.json from yy2025-program/tech-website
+   Saved: policies/real_policy_406.json
+[348/600] aws-policy.json from dawnenakey/sonzoSLR
+   Saved: policies/real_policy_407.json
+[349/600] aws-policy.json from torstenwerner/ai-term
+   Saved: policies/real_policy_408.json
+[350/600] aws-policy.json from awsdevop183/kubernetes
+   Saved: policies/real_policy_409.json
+[351/600] aws-policy.json from redhat-cop/redhat-image-mode-demo
+   Saved: policies/real_policy_410.json
+[352/600] aws-policy.json from zacheusz/ballistic-calculator
+   Saved: policies/real_policy_411.json
+[353/600] aws-policy.json from Avielyo10/parking-lot
+   Saved: policies/real_policy_412.json
+[354/600] aws-policy.json from vipink1203/aws-athena-mcp-server
+   Saved: policies/real_policy_413.json
+[355/600] aws-policy.json from rcompos/kubespray-and-pray
+   Saved: policies/real_policy_414.json
+[356/600] aws-policy.json from AlexNPavel/tectonic-vagrant-test
+   Saved: policies/real_policy_415.json
+[357/600] aws-policy.json from platform9/support-locker
+   Saved: policies/real_policy_416.json
+[358/600] aws-policy.json from simplyblock/simplyBlockDeploy
+   Saved: policies/real_policy_417.json
+[359/600] aws-policy.json from happylinks/blrplt
+   Saved: policies/real_policy_418.json
+[360/600] aws-policy.json from Roshan-Develop-1995/1finstop-auth-service-grpc
+   Saved: policies/real_policy_419.json
+[361/600] aws-policy.json from reno77/nextjs_truck_wash_test_app
+   Saved: policies/real_policy_420.json
+[362/600] aws-policy.json from AlexSTJO/orca-pipeline
+   Saved: policies/real_policy_421.json
+[363/600] aws-policy.json from nduong2000/aws-billing-backend-lambda
+   Saved: policies/real_policy_422.json
+[364/600] aws-policy.json from jmstout/dynamodb-backup-scheduler
+   Saved: policies/real_policy_423.json
+[365/600] aws-policy.json from OpenSREHub/aws-mfa
+   Saved: policies/real_policy_424.json
+[366/600] aws-policy.json from wagnerfsilva/snapliApi
+   Saved: policies/real_policy_425.json
+[367/600] aws-policy.json from semplates/aws-ses-template-manager
+   Saved: policies/real_policy_426.json
+[368/600] aws-policy.json from redaphid/docker-compose-ecs-test
+   Saved: policies/real_policy_427.json
+[369/600] aws-policy.json from Facets-cloud/facets-schemas
+   Saved: policies/real_policy_428.json
+[370/600] sample-aws-policy.json from mindstorms6/letsencrypt-route53
+   Saved: policies/real_policy_429.json
+[371/600] aws-policy.json from naonao0001777/serverless-password-certification
+   Saved: policies/real_policy_430.json
+[372/600] aws-policy.json from tommynoble/Snapceit
+   Saved: policies/real_policy_431.json
+[373/600] aws-policy.json from aws-ia/terraform-boomi-kubernetes-molecule
+   Saved: policies/real_policy_432.json
+[374/600] aws-policy.json from techiescamp/packer-templates
+   Saved: policies/real_policy_433.json
+[375/600] aws-policy.json from appsumo/mr_meeseeks
+   Saved: policies/real_policy_434.json
+[376/600] aws-policy.json from rberlind/nomad-microservices-demo-with-weave
+[377/600] aws-policy.json from dionis1030/nomad-consul-microservices-demo
+[378/600] aws-policy.json from madslundt/serverless-aws-node-sample
+[379/600] aws-policy.json from tobiaghiraldini/RockPaperScissorsDemo
+[380/600] aws-policy.json from samuraitruong/cryptopaste-api
+[381/600] aws-policy.json from balassy/camview
+[382/600] aws-policy.json from MuhammadMattiullah/AWS-Serverless-Practice
+[383/600] autoscale-aws-policy.json from csye7125-fall2020/kubernetes-gke
+[384/600] autoscale-aws-policy.json from csye7125-fall2020-kinnar-kansara/kubernetes-gke
+[385/600] autoscale-aws-policy.json from csye7125-fall2020-kinnar-kansara/kubernetes
+[386/600] autoscale-aws-policy.json from csye7125-fall2020/kubernetes
+[387/600] sample-aws-policy.json from pan-net-security/certbot
+[388/600] sample-aws-policy.json from fictional-tribble-2/certbot--certbot
+[389/600] sample-aws-policy.json from mami-project/lurk
+[390/600] sample-aws-policy.json from mitnk/certbot
+[391/600] sample-aws-policy.json from G-Core/certbot
+[392/600] sample-aws-policy.json from MrE-Fog/certbot
+[393/600] sample-aws-policy.json from MrE-Fog/certbot100
+[394/600] sample-aws-policy.json from MrE-Fog/certbot11
+[395/600] sample-aws-policy.json from X-oss-byte/Certbot
+[396/600] sample-aws-policy.json from BlackGasper1/certbot.
+[397/600] sample-aws-policy.json from magd737935355/AXHY
+[398/600] sample-aws-policy.json from magd737935355/ASD
+[399/600] sample-aws-policy.json from nightmareze1/zz
+[400/600] required-aws-policy.json from blynxai/agenticAIeducation
+[401/600] AWS-CDA.md from rishabkumar7/CloudNotes
+[402/600] aws.md from debianmaster/openshift-the-hard-way
+[403/600] AWS.md from EnigmaCurry/d.rymcg.tech
+[404/600] s3.md from dragonflydb/dragonfly-operator
+[405/600] doc.md from librespeed/speedtest
+[406/600] aws.md from alexhokl/notes
+[407/600] NEWS from mongodb/mongo-c-driver
+[408/600] FAQ.md from aws-amplify/amplify-hosting
+[409/600] Aws.md from satishdevops777/Devops
+[410/600] AWS.md from AngelJuanMa/Pentesting
+[411/600] ECR.md from aws-samples/jenkins-cloudformation-deployment-example
+[412/600] IAM.md from minhntm/aws-solutions-architect-associate-certificate
+[413/600] OPS.md from OperationCode/back-end
+[414/600] llm.md from open-constructs/projen-pipelines
+[415/600] fu.txt from freeload101/SCRIPTS
+[416/600] iam-notes.md from mahesh430/Devops-Handson-Training
+[417/600] ip.md from tc39/how-we-work
+[418/600] pl.po from cockpit-project/cockpit-podman
+[419/600] Q&A.md from nonzzz/vite-plugin-compression
+[420/600] t.txt from Evently-Event-Management/infra-ticketly
+[421/600] API.md from sqliteai/sqlite-sync
+[422/600] NEWS from OpenSCAP/openscap
+[423/600] 097.md from imShakil/100-Days-Of-DevOps-Challenge-KodeKloud
+[424/600] s3.txt from avizway1/aug2023
+[425/600] NEWS from lighttpd/lighttpd1.4
+[426/600] API.md from ZephrFish/BugBountyTemplates
+[427/600] k8s.md from yanhan/reading-list
+[428/600] 1.txt from rix4uni/WordList
+[429/600] cs.txt from whitedevil-cloud/tea
+[430/600] v2.md from asishrs/smartthings-ringalarmv2
+[431/600] gcp.md from hyunjun/bookmarks
+[432/600] en.json from AlexandreSona/teste
+   Saved: policies/real_policy_435.json
+[433/600] s3.txt from adeoyedewale/static-website-in-Terraform
+[434/600] AWS-SAA.md from rishabkumar7/CloudNotes
+[435/600] 4.txt from NakshathraBathula/AWS
+[436/600] en.txt from boyu-ai/Hands-on-NLP
+[437/600] API.md from cdklabs/cdk-pipelines-github
+[438/600] git.md from costinEEST/almanacs
+[439/600] 18.md from LuNiZz/websec101
+[440/600] 91道常见的Kubernetes面试题总结.md from 0voice/k8s_awesome_document
+[441/600] DEV.md from flightlesstux/S3-Directory-Listing
+[442/600] NEWS from freeciv/freeciv
+[443/600] API.md from cdklabs/cdk-stacksets
+[444/600] s3.txt from avizway1/july2023
+[445/600] ai.txt from shivammm21/shivammm21.github.io
+[446/600] NEWS from Igalia/cog
+[447/600] s3.txt from avizway1/sep2022
+[448/600] s3.txt from avizway1/oct2022
+[449/600] s3.txt from avizway1/roughnotes
+[450/600] e.txt from cloudninjaops/cloud-automation-scripts
+[451/600] 11.md from nostr-jp/nips-ja
+[452/600] API.md from awslabs/llrt
+[453/600] S3.txt from den330/AWSNotes
+[454/600] url.md from 74th/iot-server-book-code
+[455/600] OPR.md from Idyll-Intelligent-Systems/MS-M
+[456/600] AWS.md from hyperi-io/repo-backup
+[457/600] NEWS from zmanda/amanda
+[458/600] OPA.md from TryToLearnProgramming/opa-terraform-policies
+[459/600] API.md from dbsystel/cdk-sops-secrets
+[460/600] s3.txt from ramesh1918s/Class_AWS_915454
+[461/600] API.md from cdklabs/cdk-ecs-codedeploy
+[462/600] v1.md from sysdiglabs/secure-inline-scan
+[463/600] hcl.md from Lorite/lorite-personal-learning
+[464/600] ec2.md from chaithrakc/aws-certification
+[465/600] t.md from omar99elnemr/Docubot
+[466/600] d.txt from Lakshay-sethi/Amazon-Q-game
+[467/600] SRE.md from hoangsonww/EstateWise-Chapel-Hill-Chatbot
+[468/600] iam.md from Uni-bob/aws-cert-notes
+[469/600] 100.md from songguoxs/gpt4o-image-prompts
+[470/600] iam.md from ariesmcrae/aws_notes
+[471/600] API.md from pepperize/cdk-ses-smtp-credentials
+[472/600] PRD.md from rocklambros/llm-safety-alignment-study
+[473/600] tf1.6 from jackAAfdfggg566s/new_demo1
+[474/600] l.txt from tushkum34-cloud/pylibsmeta
+[475/600] eks.md from Tanmoy037/Kubernetes-resources
+[476/600] API.md from cdklabs/cdk-verified-permissions
+[477/600] PRD.md from raccoonyy/awspirin
+[478/600] 82.txt from devrgar-cyber/ghostlinklabs
+[479/600] sa.md from Peihu2020/eks
+[480/600] go.md from ibm-cloud-docs/cloud-object-storage
+[481/600] API.md from alma-cdk/openapix
+[482/600] API.md from mbonig/secret
+[483/600] NEWS from clutter-project/mx
+[484/600] 12.rst from forest-town/repo-2541725
+[485/600] 24.rst from forest-town/repo-2541725
+[486/600] 21.rst from forest-town/repo-2541725
+[487/600] 19.rst from forest-town/repo-2541725
+[488/600] n.rst from forest-town/repo-2541725
+[489/600] 16.rst from forest-town/repo-2541725
+[490/600] aws.md from WurthElektronik/Calypso-IoT-PnP-Design-Kit
+[491/600] API.md from git-Suyash/awstopoFrontend
+[492/600] 13.rst from forest-town/repo-2541725
+[493/600] API.md from tmokmss/opensearch-rest-resources
+[494/600] iam.md from CokeLee777/aws-certified-developer-summary
+[495/600] PRD.md from johnoct/a3s
+[496/600] cn.txt from refengs/BurpSuiteCn-myself
+[497/600] AWS.md from aleonello/technical-notes
+[498/600] KMS.md from usemantle/dugout
+[499/600] API.md from awslabs/sbt-aws
+[500/600] aws.md from nomtrosk/cheatsheets
+[501/600] hcl.md from adambard/learnxinyminutes-docs
+[502/600] todo.md from antonbabenko/terraform-best-practices
+[503/600] iam.md from bhargavsp/aws_solution-architect
+[504/600] IAM.md from naveen-uppala/AWS-Azure
+[505/600] iam-notes.md from mahesh430/Devops-Handson-Training
+[506/600] FAQ.md from aws-amplify/amplify-hosting
+[507/600] NEWS from mongodb/mongo-c-driver
+[508/600] ds.md from ty4z2008/Qix
+[509/600] ELB.md from infochimps-labs/ironfan
+[510/600] eks.md from HariSekhon/Knowledge-Base
+[511/600] api.md from cloudflare/cloudflare-go
+[512/600] spec.md from compose-spec/compose-spec
+[513/600] gcp.md from hyunjun/bookmarks
+[514/600] OPS.md from OperationCode/back-end
+[515/600] AWS.md from guardian/recommendations
+[516/600] ch12.md from BaronStack/book_paper
+[517/600] 15.qmd from ASKurz/Statistical_Rethinking_with_brms_ggplot2_and_the_tidyverse_2_ed
+[518/600] DIY.md from aws-samples/sagemaker-run-notebook
+[519/600] go.org from kitnil/notes
+[520/600] pac.txt from 1a57danc3/gfvvlist
+[521/600] AWS-CDA.md from rishabkumar7/CloudNotes
+[522/600] SSO.md from Timshel/OIDCWarden
+[523/600] llm.md from open-constructs/projen-pipelines
+[524/600] s3.txt from avizway1/march2022
+[525/600] NEWS from namhyung/uftrace
+[526/600] IAM.md from AmalSunny992/AWS_Basics
+[527/600] cli.md from abcxyz/guardian
+[528/600] API.md from kcwinner/cdk-appsync-transformer
+[529/600] Sentiment_Analysis.md from mahendrabairagi/DeeplensWorkshop
+[530/600] API.md from cdklabs/cdk-pipelines-github
+[531/600] GSG.md from FreeRTOS/iot-reference-nxp-rt1060
+[532/600] iam.md from shetty-prasad/aws
+[533/600] API.md from cdklabs/cdk-ecr-deployment
+[534/600] S3.txt from zachkohl/KingsClub
+[535/600] API.md from awslabs/cdk-serverless-clamscan
+[536/600] NEWS from samtools/htslib
+[537/600] s3.txt from avizway1/oct2022
+[538/600] iam.md from joejag/aws_exam_notes
+[539/600] iam.md from thuo-huynh/aws-cloud-practioner-notes
+[540/600] iam.md from SharinaS/Cloud-Engineering-Fundamentals
+[541/600] F2E.md from OXOYO/F2E-Tutorial-Collect
+[542/600] IAM.md from anuragambuja/data-engineering-gcp
+[543/600] IAM.md from RangasamyArran/gcp-pca
+[544/600] adl.txt from Sanket-kurle123/adl
+[545/600] AWS.MD from tawanda/cheetsheets
+[546/600] s3.txt from avizway1/sep2022
+[547/600] IAM.md from Amitkumar-Vaghela/AWS_Services
+[548/600] cv.txt from Abdul-Gafur/myportfolio
+[549/600] AWS.txt from sandy193/DevOps
+[550/600] s3.txt from boychongzen18/Bug-Host-All-Operator
+[551/600] IAM.md from SandeepKomal/AWS
+[552/600] cdns.md from barrel/barrel-dev-how-tos
+[553/600] NEWS from ConsoleKit2/ConsoleKit2
+[554/600] API.md from aripalo/aws-cdk-github-oidc
+[555/600] vpc.md from warolv/jenkins-eks
+[556/600] X.txt from cupOJoseph/XforYgen
+[557/600] IAM.md from CorruptBytes/note
+[558/600] NEWS.md from wlandau/crew.aws.batch
+[559/600] faq.md from opendataphilly/opendataphilly-jkan
+[560/600] 19.3.md from marisqq/ceh-v13
+[561/600] blog.md from clarityAIBot/clarity_background_agent
+[562/600] k8s.md from yanhan/good-reads
+[563/600] iam.md from todayisnow/AWS
+[564/600] iot.md from strongjz/aws-big-data-study
+[565/600] API.md from cargo-lambda/cargo-lambda-cdk
+[566/600] ECR.md from aws-samples/jenkins-cloudformation-deployment-example
+[567/600] qw.txt from sparkychen/mloray
+[568/600] API.md from cdklabs/cdk-ecs-service-extensions
+[569/600] PLAM.md from datascientest-fastAPI-project-group-25/fastAPI-project-infra
+[570/600] NEWS from jython/jython
+[571/600] aws.md from alexhokl/notes
+[572/600] IAM.md from GurikR/AWS
+[573/600] sox.md from rkm-ravi94/awesome-it-compliance
+[574/600] bbl.md from myminseok/pivotal-docs
+[575/600] itil.md from rkm-ravi94/awesome-it-compliance
+[576/600] RUN.md from Goldcap/iars-terraform
+[577/600] alb.md from Narendra-Geddam/eks-terraform
+[578/600] API.md from jogold/cloudstructs
+[579/600] IaC.txt from PrathamParekh23/wildrydes-helloworld
+[580/600] API.md from mbonig/state-machine
+[581/600] s3.txt from JeevanKetha/AWS-Notes
+[582/600] RFC.md from bluvibytes/zone-of-distrust
+[583/600] API.md from zxkane/snat
+[584/600] IAM.md from vamshireddy903/GCP-Learning
+[585/600] IAM.md from ih810/AWS_notes
+[586/600] NEWS from ganeti/ganeti
+[587/600] API.md from cdklabs/aws-lambda-rust
+[588/600] kb.txt from dhruvsahu007/chroma-db-test
+[589/600] 2.6.md from InteractiveAdvertisingBureau/openrtb2.x
+[590/600] API.md from alma-cdk/openapix
+[591/600] go.md from ibm-cloud-docs/cloud-object-storage
+[592/600] aws.txt from Gaini-Laxman/Interview-QA
+[593/600] AI.md from rhyscraig/aws-terraform-platform-tenant-bootstrap
+[594/600] RTK.md from mlucascosta/ia_boilerplate
+[595/600] help.md from Yagna-69/CS-Capstone
+[596/600] aws.md from nycitt/codementor-example
+[597/600] NEWS from heimdal/heimdal
+[598/600] FAQ.md from jjdarcy/cantrilltips
+[599/600] ZIG.Rmd from sfigary/website
+[600/600] API.md from opencdk8s/cdk8s-aws-lb-controller
+
+============================================================
+SCRAPING COMPLETE
+   Total policies saved: 436
+   Added this round: 218
+   Duplicates skipped: 27
+   Errors: 0
+   Location: policies/
+
+   Need 64 more policies to reach target
+   Run this script again to collect more!
+============================================================
+
+Waiting 10 seconds before next round...
+
+============================================================
+ROUND 3 of 5
+============================================================
+
+============================================================
+GitHub IAM Policy Scraper (Anti-Duplicate)
+============================================================
+Target: 500 policies
+Currently have: 436 policies
+Remaining to collect: 64
+
+
+Searching GitHub: filename:iam.json
+   Found 100 files
+
+Searching GitHub: filename:policy.json
+   Found 100 files
+
+Searching GitHub: path:iam language:json Statement
+   Found 100 files
+
+Searching GitHub: filename:aws-policy.json
+   Found 100 files
+
+Searching GitHub: AWS policy json
+   Found 100 files
+
+Searching GitHub: IAM policy github
+   Found 100 files
+
+Total items found: 600
+Downloading policies...
+
+[1/600] iam.jsonnet from kapicorp/kapitan
+[2/600] cesarwilliam.json from remy/mit-license
+[3/600] iam.json from huseyinbabal/taws
+[4/600] iam.json.tpl from aws-samples/terraform-aws-organization-policies
+   Saved: policies/real_policy_436.json
+[5/600] diam.json from hubingkang/vocabulary-corpus
+[6/600] bosh-core-stemcells_iam.json from cloudfoundry/bosh-linux-stemcell-builder
+   Saved: policies/real_policy_437.json
+[7/600] william.json from bluzi/name-db
+[8/600] iam.json.orig from Glairly/introduction_to_tensorflow
+[9/600] iam.json.new from vishal710/GoogleCloudPlatform-training-data-analyst
+[10/600] miriam.json from CDLUC3/N2T
+[11/600] kops-iam.json from bgeesaman/hhkbe
+[12/600] IAM.json from opencdx/opencdx
+[13/600] oneoe_iam.json from oci-landing-zones/oci-landing-zone-operating-entities
+[14/600] iam.json-reformat.py from bwnyasse/learning-box
+[15/600] airiam.json from STFCcommunity/data
+[16/600] iam.json.tftpl from MatDevel0per/terraform_module_scaffold
+[17/600] ebs-iam.json.tmpl from pfenerty/talos-aws-terraform
+   Saved: policies/real_policy_438.json
+[18/600] mniam.json from nice-registry/dependent-packages
+[19/600] sample-iam.json from SmarterServices/IAM
+   Saved: policies/real_policy_439.json
+[20/600] liam.json.old from STBRR/YamatoLegacy
+[21/600] santiam.json5 from krzysztofrewak/hops
+[22/600] Priam.jsonld from scta/scta-people
+[23/600] sciam.json from j6k4m8/Congress-Twitter-Followers
+[24/600] Aniam.json from BibleAquifer/ACAI
+[25/600] EJPIAm.json from j6k4m8/Congress-Twitter-Followers
+[26/600] Miriam.json from BibleAquifer/ACAI
+[27/600] sample_config_iam.json from cwig/simple_hwr
+[28/600] emeryiam.json from j6k4m8/Congress-Twitter-Followers
+[29/600] WisamIAm.json from j6k4m8/Congress-Twitter-Followers
+[30/600] CF-IAM.json from RedHatDemos/SecurityDemos
+[31/600] Thing2Iam.json from j6k4m8/Congress-Twitter-Followers
+[32/600] Liam.json from ExtraE113/moltbook_data
+[33/600] sciam.json from JohnMarkOckerbloom/onlinebooks
+[34/600] jsiam.json from JohnMarkOckerbloom/onlinebooks
+[35/600] liam.json from datasets-io/female-first-names-us-frequency
+[36/600] liam.json from MaddieM4/djdns-hype-flat
+[37/600] OIAM.json from geoffmcl/map-test2
+[38/600] VIAM.json from geoffmcl/map-test2
+[39/600] SIAM.json from geoffmcl/map-test2
+[40/600] ariam.json from datasets-io/female-first-names-us-frequency
+[41/600] adiam.json from datasets-io/female-first-names-us-frequency
+[42/600] mariam.json from datasets-io/female-first-names-us-frequency
+[43/600] liliam.json from datasets-io/female-first-names-us-frequency
+[44/600] myriam.json from datasets-io/female-first-names-us-frequency
+[45/600] washifyIAM.json from Washify-EGS/IAM
+[46/600] CrisIAm.json from ExtraE113/moltbook_data
+[47/600] lilliam.json from datasets-io/female-first-names-us-frequency
+[48/600] gilliam.json from datasets-io/female-first-names-us-frequency
+[49/600] mirriam.json from datasets-io/female-first-names-us-frequency
+[50/600] jilliam.json from datasets-io/female-first-names-us-frequency
+[51/600] VIAM.json from geoffmcl/map-test2
+[52/600] OIAM.json from geoffmcl/map-test2
+[53/600] WIAM.json from geoffmcl/map-test2
+[54/600] SIAM.json from geoffmcl/map-test2
+[55/600] kiam.json from datasets-io/male-first-names-us-frequency
+[56/600] tiam.json from datasets-io/male-first-names-us-frequency
+[57/600] siam.json from datasets-io/male-first-names-us-frequency
+[58/600] iam.json from robotocore/robotocore
+[59/600] chiam.json from datasets-io/male-first-names-us-frequency
+[60/600] eliam.json from datasets-io/male-first-names-us-frequency
+[61/600] leiam.json from datasets-io/male-first-names-us-frequency
+[62/600] lliam.json from datasets-io/male-first-names-us-frequency
+[63/600] EC2snapshotIAM.json from giancarlopetrini/aws-snapshot-automation
+   Saved: policies/real_policy_440.json
+[64/600] wiliam.json from datasets-io/male-first-names-us-frequency
+[65/600] wlliam.json from datasets-io/male-first-names-us-frequency
+[66/600] illiam.json from datasets-io/male-first-names-us-frequency
+[67/600] liam.json from 0xbzho/onename
+[68/600] gilliam.json from datasets-io/male-first-names-us-frequency
+[69/600] wylliam.json from datasets-io/male-first-names-us-frequency
+[70/600] wiiliam.json from datasets-io/male-first-names-us-frequency
+[71/600] ephriam.json from datasets-io/male-first-names-us-frequency
+[72/600] wwlliam.json from datasets-io/male-first-names-us-frequency
+[73/600] siam.json from hanjoyo/kbbi
+[74/600] riam.json from hanjoyo/kbbi
+[75/600] kiam.json from hanjoyo/kbbi
+[76/600] tiam.json from hanjoyo/kbbi
+[77/600] willliam.json from datasets-io/male-first-names-us-frequency
+[78/600] williiam.json from datasets-io/male-first-names-us-frequency
+[79/600] wwilliam.json from datasets-io/male-first-names-us-frequency
+[80/600] winiam.json from 0xbzho/onename
+[81/600] daniam.json from 0xbzho/onename
+[82/600] taliam.json from 0xbzho/onename
+[83/600] jimiam.json from 0xbzho/onename
+[84/600] kthiam.json from 0xbzho/onename
+[85/600] mariam.json from 0xbzho/onename
+[86/600] googleapis.com_iam.json from bhumikanilesh/api-explorer-pipeline
+[87/600] rmiriam.json from 0xbzho/onename
+[88/600] iam_iam.json from 0xbzho/onename
+[89/600] pik-piam.json from r-universe-org/cran-to-git
+[90/600] event_iam.json from MattTunny/watch-security-group
+[91/600] meriam.json from hanjoyo/kbbi
+[92/600] sediam.json from hanjoyo/kbbi
+[93/600] sirwilliam.json from datasets-io/male-first-names-us-frequency
+[94/600] jgilliam.json from 0xbzho/onename
+[95/600] cgilliam.json from 0xbzho/onename
+[96/600] uuilliam.json from 0xbzho/onename
+[97/600] 2william.json from 0xbzho/onename
+[98/600] packer-iam.json from evgeny-goldin/playbooks
+   Saved: policies/real_policy_441.json
+[99/600] berdiam.json from hanjoyo/kbbi
+[100/600] johnwilliam.json from datasets-io/male-first-names-us-frequency
+[101/600] CorsPolicy.json.cs from Azure/azure-powershell
+[102/600] 04_policy.json.j2 from hiddify/Hiddify-Manager
+[103/600] bucket-policy.json.template from pachyderm/pachyderm
+   Saved: policies/real_policy_442.json
+[104/600] OIDC-Policy.json.template from hpcc-systems/HPCC-Platform
+   Saved: policies/real_policy_443.json
+[105/600] policy.json.adoc from stolostron/rhacm-docs
+[106/600] policy.json.dist from devture/matrix-corporal
+[107/600] policy.json.tpl from monterail/terraform-bootstrap-example
+[108/600] united-policy.json-in-cinder.rst from openstack/cinder-specs
+[109/600] stage-scaling-policy.json.j2 from foremast/foremast
+[110/600] _policy.json.jbuilder from openaustralia/theyvoteforyou
+[111/600] CreatePolicy.json.cloudtrail from adanalvarez/TrailDiscover
+[112/600] policy.json from SS-archive/salt-states
+[113/600] _policy.json.tpl from sapcc/helm-charts
+[114/600] DisableRegionsPolicy.json.tftpl from primeharbor/org-kickstart
+[115/600] kmspolicy.json.tpl from Capgemini/TerraKube-AWS
+   Saved: policies/real_policy_444.json
+[116/600] lambda_policy.json.erb from coinbase/bifrost
+   Saved: policies/real_policy_445.json
+[117/600] debuggers_policy.json.orig from cunningham-lab/neurocaas
+   Saved: policies/real_policy_446.json
+[118/600] bucket-policy.json from trek10inc/serverless-video-sharing
+   Saved: policies/real_policy_447.json
+[119/600] bucket_policy.json.tpl from koding/tf_zookeeper
+   Saved: policies/real_policy_448.json
+[120/600] iam_role_policy.json from DevOpsRunbook/FastCampus
+   Saved: policies/real_policy_449.json
+[121/600] llm_policy.json.raw.txt from GiangHoGoVap/LLM-ALNS
+[122/600] AssumeRolepolicy.json.txt from UnfoldDataScience/Agentic_Ai_For_Beginner
+[123/600] containers-policy.json.5.md from ciq-rocky-lts/containers-common
+[124/600] policy.json.j2 from stephenpearson/hos_config
+[125/600] policy.json.j2 from ArdanaCLM/ceilometer-ansible
+[126/600] policy.json.j2 from validatedpatterns/hypershift-automation
+   Saved: policies/real_policy_450.json
+[127/600] valueset-consent-policy.json.html from ebmonfhir/publish
+[128/600] v3-SecurityPolicy.json.html from fhir-ru/built-test
+[129/600] dynamodb-policy.json.sample from lakshminarasimmanv/narasimman-tech-tf
+   Saved: policies/real_policy_451.json
+[130/600] hadoop-policy.json.j2 from clemlabprojects/ansible-odp-cluster-installation
+[131/600] trust-policy.json.tpl from cbfield/terraform-aws-irsa
+[132/600] step_policy.json.erb from fakeNetflix/coinbase-repo-geoengineer
+   Saved: policies/real_policy_452.json
+[133/600] valueset-versioning-policy.json.html from bcl-lab/FHIR_CG_web
+[134/600] policy.json.sample.license from brlin-tw/neko-container
+[135/600] k8s_r53_role_policy.json.tpl from AwesomeCICD/ceratf-module-helm-istio
+   Saved: policies/real_policy_453.json
+[136/600] kms-key-policy.json.tpl from dxw/terraform-dxw-dalmatian-account-bootstrap
+[137/600] valueset-versioning-policy.json.html from ebmonfhir/publish
+[138/600] sns_send_message_policy.json.tpl from nationalarchives/dr2-ingest
+   Saved: policies/real_policy_454.json
+[139/600] key_access_policy.json.tpl from psgpyc/AWS-INFRA-TERRAFORM
+   Saved: policies/real_policy_455.json
+[140/600] codesystem-versioning-policy.json.html from bcl-lab/FHIR_CG_web
+[141/600] contract-example-ins-policy.json.html from ebmonfhir/publish
+[142/600] kms-key-policy.json.tpl from cbfield/terraform-aws-rds-cluster
+   Saved: policies/real_policy_456.json
+[143/600] kube2iam-policy.json.j2 from ctg123/ansible-kops
+   Saved: policies/real_policy_457.json
+[144/600] ilm_policy.json.j2 from GuillaumeWaignier/fibaro-dashboard
+[145/600] s3-bucket-policy.json.tpl from dxw/terraform-aws-tfvars-s3
+[146/600] policy.json.5.md from lunar-linux/moonbase-other
+[147/600] GlueAccessPolicy.json.tpl from ricardo-mattoss/ggvd-data-pipeline
+   Saved: policies/real_policy_458.json
+[148/600] codesystem-versioning-policy.json.html from ebmonfhir/publish
+[149/600] policy.json.j2 from pascal71/k8s4all-ansible
+[150/600] node-trust-policy.json.j2 from ctg123/ansible-kops
+   Saved: policies/real_policy_459.json
+[151/600] codebuild-policy.json.tpl from bitcot/terraform-aws-wordpress-beanstalk
+   Saved: policies/real_policy_460.json
+[152/600] notification-policy.json.template from kurron/terraform-environments
+   Saved: policies/real_policy_461.json
+[153/600] policy.json.template from seanrmurphy/go-fullstack
+[154/600] trust-policy.json.tmpl from stclaird/cloud-oidc
+   Saved: policies/real_policy_462.json
+[155/600] repository-policy.json.tpl from cbfield/terraform-aws-ecr-repository
+[156/600] apigateway_policy.json.tpl from serverless-ca/api-gateway
+   Saved: policies/real_policy_463.json
+[157/600] lambda-policy.json.bak from GarrettOHara/scripts
+   Saved: policies/real_policy_464.json
+[158/600] assume-role-policy.json.tpl from cbfield/terraform-aws-eks-cluster
+   Saved: policies/real_policy_465.json
+[159/600] etcd-policy.json.tpl from Smana/terraform-kubernetes
+   Saved: policies/real_policy_466.json
+[160/600] wordpress-s3-policy.json.j2 from dysonfrost/ansible-kops
+   Saved: policies/real_policy_467.json
+[161/600] kptboard_ssm_policy.json.tpl from f96q/kptboard-terraform
+   Saved: policies/real_policy_468.json
+[162/600] wash-kms-key-policy.json.tpl from psgpyc/WASH-Analytics-Engineering-Project
+   Saved: policies/real_policy_469.json
+[163/600] s3_kms_key_policy.json.tpl from psgpyc/AWS-INFRA-TERRAFORM
+   Saved: policies/real_policy_470.json
+[164/600] glance.policy.json.juno from gfa/salt-for-openstack
+[165/600] ecr_repo_policy.json.tpl from cip-p/terraform-aws
+[166/600] CrossChainPolicy.json.ts from scom-repos/oswap-cross-chain-token-contract
+[167/600] policy.json_example from rodrigods/keystone-policy-tests
+[168/600] bucket_policy.json from acantril/aws-sa-associate-saac02
+   Saved: policies/real_policy_471.json
+[169/600] ec2_policy.json.tpl from MancunianSam/piano-lessons-infrastructure
+   Saved: policies/real_policy_472.json
+[170/600] assume-role-policy.json.j2 from validatedpatterns/hypershift-automation
+[171/600] policy.json.erb from SysCompass/compass-adapters
+[172/600] _privacy_policy.json.jbuilder from arataaoshima/smorq
+[173/600] policy.json.tmpl from bkeane/monad
+   Saved: policies/real_policy_473.json
+[174/600] s3_policy.json.j2 from rahulinux/ansible-portus
+   Saved: policies/real_policy_474.json
+[175/600] azurepolicy.json from Azure/Community-Policy
+[176/600] minio-rw-policy.json.jinja from WaylonWalker/homelab-argo
+   Saved: policies/real_policy_475.json
+[177/600] service-role-policy.json from npalm/terraform-aws-ecs-instances
+   Saved: policies/real_policy_476.json
+[178/600] policy.json.j2 from t1mssc/kali-playbook
+[179/600] role_policy.json.tpl from gessy0129/GitHubLoginToCognito
+   Saved: policies/real_policy_477.json
+[180/600] s3_repl_policy.json.j2 from jpmontez/s3_replication
+[181/600] assume_role_policy.json.tmpl from fengjixuchui/kube-registry
+   Saved: policies/real_policy_478.json
+[182/600] diffusion_policy.json from DAVIAN-Robotics/ACG
+[183/600] cloudwatch-logging-policy.json.tpl from Loganair/aws-sftp
+   Saved: policies/real_policy_479.json
+[184/600] ecs_task_policy.json.tpl from MancunianSam/piano-lessons-infrastructure
+   Saved: policies/real_policy_480.json
+[185/600] lambda_policy.json.j2 from auto-processor/definition
+   Saved: policies/real_policy_481.json
+[186/600] policy.json.last from prisyazhnyukrepl12/Kirill-12
+[187/600] pipeline_role_policy.json.tpl from AwesomeCICD/ceratf-deployment-monorepo
+   Saved: policies/real_policy_482.json
+[188/600] hold_time_policy.json.backup from mlevitan96-crypto/trading-bot
+[189/600] pulumi_infra_policy.json.j2 from gurutechit/aws-oidc-bootstrap
+   Saved: policies/real_policy_483.json
+[190/600] push_to_ecr_policy.json.tpl from MancunianSam/piano-lessons-infrastructure
+   Saved: policies/real_policy_484.json
+[191/600] health-check-policy.json.tmpl from pagopa/subdomain-takeover-monitoring
+   Saved: policies/real_policy_485.json
+[192/600] policy.json from openinfradev/tacoplay
+[193/600] darwin_policy.json.backup_1759008188 from danielgonzagat/Darwin-Engine
+[194/600] kms_iam_role_policy.json.tpl from sshastri/terraform-aws-vault-enterprise
+   Saved: policies/real_policy_486.json
+[195/600] s3mrap-policy.json.tpl from seungju12/terraform-aws
+   Saved: policies/real_policy_487.json
+[196/600] iam_policy.json.tpl from aphorise/hashicorp.tf_aws_vault
+   Saved: policies/real_policy_488.json
+[197/600] ssm_iam_role_policy.json.tpl from sshastri/terraform-aws-vault-enterprise
+   Saved: policies/real_policy_489.json
+[198/600] s3bucket_policy.json from LesUski/100-Days-in-Cloud
+   Saved: policies/real_policy_490.json
+[199/600] EmailClassifierBucketAccessRole-TrustPolicy.json from GenesysCloudBlueprints/cx-as-code-cicd-gitactions-blueprint
+   Saved: policies/real_policy_491.json
+[200/600] ecr-lifecycle-policy.json.tpl from qshahrour/qterraform
+[201/600] LambdAuthLostPassword.json from danilop/LambdAuth
+   Saved: policies/real_policy_492.json
+[202/600] skunk_role.json from Netflix-Skunkworks/skunky
+   Saved: policies/real_policy_493.json
+[203/600] dss-lambda.json from HumanCellAtlas/data-store
+   Saved: policies/real_policy_494.json
+[204/600] kubernetes-worker-policy.json from wearemakery/kubestack-aws
+   Saved: policies/real_policy_495.json
+[205/600] states.json from Semantive/blog-step-functions-async-actions
+   Saved: policies/real_policy_496.json
+[206/600] ci-cd.json from HumanCellAtlas/cloud-blobstore
+   Saved: policies/real_policy_497.json
+[207/600] ec2_assume_role_policy.json from nasum/container-era-terraform
+   Saved: policies/real_policy_498.json
+[208/600] dynamo_s3_policy.json from AntoineBendafiSchulmann/FoodSentinelle
+   Saved: policies/real_policy_499.json
+
+Target of 500 policies reached!
+
+============================================================
+SCRAPING COMPLETE
+   Total policies saved: 500
+   Added this round: 64
+   Duplicates skipped: 0
+   Errors: 0
+   Location: policies/
+
+   SUCCESS: Reached target of 500 policies!
+============================================================
+
+Target reached! Stopping early.
+
+============================================================
+ALL ROUNDS COMPLETE
+============================================================
+Total rounds executed: 3
+Total policies collected: 500
+Total added this session: 500
+Total duplicates skipped: 54
+Total errors: 0
+Target: 500
+
+SUCCESS: Reached target of 500 policies!
+============================================================

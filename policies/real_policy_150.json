@@ -1,0 +1,43 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowS3AndDynamoResourceCreation",
+      "Effect": "Allow",
+      "Action": [
+        "s3:CreateBucket",
+        "s3:DeleteBucket",
+        "s3:PutBucketPolicy",
+        "s3:PutObject",
+        "s3:GetObject",
+        "s3:PutBucketTagging",
+        "s3:ListBucket",
+        "s3:ListAllMyBuckets",
+        "dynamodb:CreateTable",
+        "dynamodb:DeleteTable",
+        "dynamodb:DescribeTable",
+        "dynamodb:ListTables",
+        "dynamodb:PutItem"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "AllowCloudFormationActions",
+      "Effect": "Allow",
+      "Action": [
+        "cloudformation:CreateChangeSet",
+        "cloudformation:ExecuteChangeSet",
+        "cloudformation:DeleteStack",
+        "cloudformation:DescribeStacks",
+        "cloudformation:DescribeStackEvents",
+        "cloudformation:DescribeStackResource",
+        "cloudformation:DescribeChangeSet",
+        "cloudformation:GetResource",
+        "cloudformation:GetTemplateSummary",
+        "cloudformation:ListTypes",
+        "cloudformation:ListResources"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
