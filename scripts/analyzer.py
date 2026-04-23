@@ -2,7 +2,7 @@ import json
 import os
 import csv
 
-policies_dir = "policies"
+policies_dir = "/home/vboxuser/cloud-iam-capstone/policies"
 results = []
 
 vulnerable_count = 0
